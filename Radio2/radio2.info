@@ -1,0 +1,7 @@
+name = GNB-Radio2
+description = Template for GNB Radio2.
+screenshot = img/screenshot.png
+core = 7.x
+version = Version 1.0
+project = GNB-Radio2
+engine = phptemplate
