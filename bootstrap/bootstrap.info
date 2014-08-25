@@ -100,6 +100,7 @@ settings[toggle_search] = 1
 
 ; CSS NEWLY ADDED
 ; --------------
+stylesheets[all][] = bootstrap_subtheme/css/social_tabs/tabs.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended.css
 stylesheets[all][] = bootstrap_subtheme/css/main.css
 stylesheets[all][] = bootstrap_subtheme/css/style.css
@@ -114,6 +115,14 @@ stylesheets[all][] = bootstrap_subtheme/css/bootstrap-theme.min.css
 
 ;JS NEWLY ADDED
 ; --------------
+scripts[] = bootstrap_subtheme/js/slideshow/social_tabs/tabs.js
+scripts[] = bootstrap_subtheme/js/slideshow/custom_jssor.js
+scripts[] = bootstrap_subtheme/js/slideshow/jquery-1.9.1.min.js
+scripts[] = bootstrap_subtheme/js/slideshow/jssor.core.js
+scripts[] = bootstrap_subtheme/js/slideshow/jssor.slider.js
+scripts[] = bootstrap_subtheme/js/slideshow/jssor.utils.js
+
+
 scripts[] = js/selectivizr-min.js
 scripts[] = bootstrap_subtheme/js/main.js
 scripts[] = bootstrap_subtheme/js/vendor/bootstrap.js

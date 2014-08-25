@@ -12,15 +12,27 @@
 	margin-top:50px;
 	}  
 	
-.redcolorr{
-	background-color:red;
-	height:100px;
+.logo{
+	display:block;
+	background:url(../img/generic/large/logo/logo.png) no-repeat;
+	height:168px;
+	width:210px;
+	
 }	
-.greycolortop{
-	background-color:grey;
-	height:100px;
+.timed_banner{
+	display:block;
+	background:url(../img/content/large/timed_banner.png) no-repeat;
+	height:168px;
+	width:590px;
+}
+.listen_live{
+	display:block;
+	background:url(../img/content/large/listen_live.png) no-repeat;
+	height:168px;
+	width:160px;
 }
 .greycolor{
+	display:block;
 	background-color:grey;
 	height:100px;
 	margin:10px 0 10px 0;
@@ -179,20 +191,30 @@
 }
 .facebook_right{
 background-color:#75AAEC;
-height:315px;	
+height:510px;	
 
 }
 .advertisement_right{
-background-color:#999;	
+display:block;
+/*background:url(../img/content/large/adv.png) no-repeat;*/
+background-color:#dfdfdf;
 height:250px;
+width:320px;
+
+
+}
+.photos_right_header{
+background-color:#e472ad;
+height:63px;	
 }
 .photos_right{
 background-color:#F96;	
 height:250px;
+background:url(../img/content/large/photos1.png);
 }
 .blog_right{
 background-color:#C63;
-height:380px;	
+height:275px;	
 }
 .instagram_right{
 background-color:#9C6;	

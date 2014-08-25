@@ -53,6 +53,16 @@
 	.vertical_seperator_contest{
 		border-left:1px solid #c2c2c2;
 	}
+	.vertical_seperator_tabloid{
+		border-left:1px solid #c2c2c2;
+		margin-bottom:10px;
+	}
+	.video_description{
+		margin:-5px 0 8px 0;
+		color:#999;
+		font-weight:bold;
+		text-align:center;
+	}
 /* 
 *************/	
 
@@ -112,10 +122,18 @@ background-color:#000;
 	.top_seperator{
 		margin-top:0 !important;	
 	}
-		.vertical_seperators{
+	.vertical_seperators{
 		border-left:0 !important;
 		
 		margin:0 !important;
+	}
+	.vertical_seperator_tabloid{
+		border-left:0 !important;
+		
+	}
+	.video_description{
+		margin:0 !important;
+		color:#999;
 	}
 
 }
@@ -156,6 +174,18 @@ background-color:#000;
 		border-left:1px solid #c2c2c2 !important;
 		
 		margin:10px 0 20px 0;
+	}
+	.video_description{
+		margin:-5px 0 8px 0 !important;
+
+	}
+	.no_padding{
+		padding-right: 0 !important;
+		padding-left: 0 !important;	
+	}
+	.no_padding_left{
+		padding-left: 0 !important;
+		
 	}
 
 
