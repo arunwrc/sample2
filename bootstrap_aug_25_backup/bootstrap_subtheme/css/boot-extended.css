@@ -50,40 +50,11 @@
 		text-decoration:none;
 		color:#666;
 	}
-	.vertical_seperator_contest{
-		border-left:1px solid #c2c2c2;
-	}
-/* 
-*************/	
-
-.f_wrapper{
-width:100%;	
-background-color:#000;
-}
-/*
-*********/
-.main_footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #033;;
-}
 
 
 /* RIGHT SIDE CONTENT BORDER LEFT FOR IE-8 ENDS*/
-@media screen and (max-width: 1200px) { /* Screen Lower than 1200px*/
-	.vertical_seperator_contest{
-			border-left:0 !important;
-		}
-}
-@media screen and (min-width: 1200px) { /* Screen Higher than 768px*/
-	.vertical_seperator_contest{
-			border-left:1px solid #c2c2c2 !important;
-		}
-}
-@media screen and (max-width: 768px) { /* Screen Lower than 767px*/
+
+@media screen and (max-width: 767px) { /* Screen Lower than 767px*/
 	.facebook_right{
 		border-left:0 !important;
 	}
@@ -104,7 +75,7 @@ background-color:#000;
 	}
 	
 	.vertical_seperator{
-		border-left:0 !important;
+		border-left:0;
 	}
 	.lime_yellow_color{
 		margin-top:0 !important;

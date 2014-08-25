@@ -39,12 +39,11 @@
 			<div class="col-ie-7 col-xs-7 col-sm-12 col-md-7 col-lg-7 greycolortop"><!-- col-md-7 Starts-->
 				<p>Timed Banner</p>
 			</div><!-- col-md-7 Ends-->
-            
 			<div class="col-ie-2 col-xs-2 col-sm-12 col-md-2 col-lg-2 pinkcolor"><!-- col-md-2 Starts-->
 			<div class="divider_one">Span 1</div>
 			<div class="divider_two">Span 2</div>
 			<div class="divider_three">Span 3</div>
-				
+				<p>Right End Content</p>
 			</div><!-- col-md-2 Ends-->
 		</div><!-- Main row Ends -->	
 	
@@ -163,10 +162,10 @@
 				</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row">
-				<div class="col-ie-1 col-sm-1 col-md-1 kennyshow_number">
+				<div class="col-ie-1 col-sm-2 col-md-1 kennyshow_number">
 					<p>01</p>
 				</div>
-				<div class="col-ie-1 col-sm-1 col-md-1 kennyshow_number">
+				<div class="col-ie-1 col-sm-2 col-md-1 kennyshow_number">
 					<p>02</p>
 				</div>
 				<div class="col-ie-7 col-sm-7 col-md-7 kennyshow_contents">
@@ -188,11 +187,11 @@
 				
 
 				<!-- Second Content Starts-->
-				<div class="col-ie-1 col-sm-1 col-md-1 kennyshow_number">
-					<p>01</p>
+				<div class="col-ie-1 col-sm-2 col-md-1 kennyshow_number">
+					<p>03</p>
 				</div>
-				<div class="col-ie-1 col-sm-1 col-md-1 kennyshow_number">
-					<p>02</p>
+				<div class="col-ie-1 col-sm-2 col-md-1 kennyshow_number">
+					<p>04</p>
 				</div>
 				<div class="col-ie-7 col-sm-7 col-md-7 kennyshow_contents">
 					<p>Kenny Show</p>
@@ -209,7 +208,9 @@
 				</div>
 				<div class="col-ie-1 col-sm-1 col-md-1 kennyshow_contents">
 				
-				</div>                
+				</div>
+				
+
 				<!-- Second Content Ends-->				
 			</div>
 			<!-- Music Ends-->
@@ -240,25 +241,25 @@
 			<!-- Contest Ends-->
 
 				<div class="row"><!-- row Starts-->
-				<div class="col-ie-3 col-sm-12 col-md-12  col-lg-3  whitecolors"><!-- col-md-4 Starts-->
+				<div class="col-ie-3 col-sm-12 col-md-3 whitecolors"><!-- col-md-4 Starts-->
 					<div class="darkgreenscolor">
 					  <h2>Contest 1</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>
 					</div>	
 				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-12 col-lg-3 whitecolors vertical_seperator_contest"><!-- col-md-4 Starts-->
+				<div class="col-ie-3 col-sm-12 col-md-3 whitecolors vertical_seperator"><!-- col-md-4 Starts-->
 					<div class="darkgreencolor">
 					  <h2>Contest 2</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>
 					</div>	
 				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-12 col-lg-3  whitecolors vertical_seperator_contest"><!-- col-md-4 Starts-->
+				<div class="col-ie-3 col-sm-12 col-md-3 whitecolors vertical_seperator"><!-- col-md-4 Starts-->
 					<div class="lightgreenscolor">
 					  <h2>Contest 3</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>
 					</div>	
 				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-12 col-lg-3  whitecolors vertical_seperator_contest"><!-- col-md-4 Starts-->
+				<div class="col-ie-3 col-sm-12 col-md-3 whitecolors vertical_seperator"><!-- col-md-4 Starts-->
 					<div class="lightgreencolor">
 					  <h2>Contest 4</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>
@@ -315,22 +316,21 @@
 </div> <!-- Main Wrapper Ends-->	
 	<!-- Sub Footer Starts -->
 		
-	<div class="f_wrapper">
-		 <div class="container radio2-container">
-         <div class="row">
-				<div class="col-ie-5 col-sm-12 col-md-5 col-lg-5 subfooter_subtwo">
+		
+			
+			<div class="col-ie-12 col-sm-12 col-md-12 subfooter_subone">
+				<div class="container subfooter-container"><!-- Main container Strats--> 
+					<div class="col-ie-5 col-sm-12 col-md-5 subfooter_subtwo">
 						<p>SubFooter 1</p>
 					</div>
-					<div class="col-ie-5 col-sm-12 col-md-5 col-lg-5 subfooter_subone">
+					<div class="col-ie-5 col-sm-12 col-md-5 subfooter_subone">
 						<p>SubFooter 2</p>
 					</div>
-					<div class="col-ie-2 col-sm-12 col-md-2 col-lg-2 subfooter_subthree">
+					<div class="col-ie-2 col-sm-12 col-md-2 subfooter_subthree">
 						<p>SubFooter 3</p>
 					</div>
 				</div>
-         </div>
-         </div>
-    </div>          	
+			</div>	
 			
 		
 			
@@ -340,11 +340,14 @@
 	<!-- Footer Starts -->
 		
 		
-    <div class="main_footer">
-      <div class="container radio2-container">
-        <div style="margin-top:-7px; color:white;">Copyright GN Broadcasting</div>
-      </div>
-    </div>
+			
+			<div class="col-ie-12 col-sm-12 col-md-12 mainfooter">
+				<div class="container mainfooter-container"><!-- Main container Strats--> 
+					<div class="col-ie-5 col-md-5 col-sm-12 copyright_footer">
+						<p>GN Broadcasting Copyright 2013.</p>
+					</div>
+				</div>
+			</div>	
 			
 		
 			
