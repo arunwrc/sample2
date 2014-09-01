@@ -1,0 +1,218 @@
+@media screen and (max-width: 767px) { /* Screen Lower than 767px*/
+	.facebook_right{
+		border-left:0 !important;
+	}
+	.advertisement_right{
+		border-left:0 !important;
+	}
+	.photos_right{
+		border-left:0 !important;
+	}
+	.second_Ad_right{
+		border-left:0 !important;
+	}
+	.instagram_right{
+		border-left:0 !important;
+	}	
+	.weather_right{
+		border-left:0 !important;
+	}
+	.weather_right_header{
+		border-left:0 !important;
+	}
+	.photos_right_header{
+		border-left:0 !important;
+	}
+	
+	.vertical_seperator{
+		border-left:0 !important;
+	}
+	.lime_yellow_color{
+		margin-top:15px !important;
+	}
+	.music_header{
+		margin-top:0 !important;
+	}
+	.top_seperator{
+		margin-top:0 !important;	
+	}
+	.vertical_seperators{
+		border-left:0 !important;
+		
+		margin:0 !important;
+	}
+	.vertical_seperator_tabloid{
+		border-left:0 !important;
+		
+	}
+	.video_description{
+		margin:0 !important;
+		color:#999;
+	}
+	.radio2_tv_first{
+		text-align:center;
+	}
+	.radio2_tv_second{
+		text-align:center;
+	}
+	.timed_banner{
+		background-size: 100% auto !important;
+		background-repeat: no-repeat !important;
+	}
+	.logo{
+		text-align:center;
+		height:120px !important;
+	}
+	.listen_live_wrapper{
+		background-color:#292929;
+		
+	}
+	.apps_wrapper{
+		background-color:#3a3a3a;
+		height:55px;
+	}
+		.whitecolors{
+		height:195px !important;	
+	}
+	.contest_first{
+		margin-left:auto !important;
+		margin-right:auto !important;
+		
+	}
+	.contest_second{
+		margin-left:auto !important;
+		margin-right:auto !important;
+	}
+	.contest_third{
+		margin-left:auto !important;
+		margin-right:auto !important;
+	}
+	.contest_four{
+		margin-left:auto !important;
+		margin-right:auto !important;	
+	}
+	.hot_onradio_1{
+		margin:0 auto !important;	
+		width:140px !important;
+	}
+	.hot_onradio_2{
+		margin:0 auto !important;	
+		width:140px !important;
+	}
+	.hot_onradio_3{
+		margin:0 auto !important;	
+		width:140px !important;
+	}
+	.hot_on_radio_contents{
+		text-align:center !important;
+		width:100% !important;
+	}
+	.radio2_tv_first > iframe{
+		width:100% !important;	
+	}
+	.radio2_tv_second > iframe{
+		width:100% !important;	
+	}
+	.horizontal_seperator{
+		border-bottom:1px solid #ccc !important;	
+	}
+	.no_padding{
+		padding-right: 0 !important;
+		padding-left: 0 !important;	
+	}
+	.region-listen-live img {
+		width:179px !important;
+		height:56px !important;
+	}
+	.region-listen-again img {
+		width:179px !important;
+		height:56px !important;
+	}
+	.region-apps img {
+		width:179px !important;
+		height:56px !important;
+	}
+	.padding_left_10 {
+		padding-left:10px !important;
+	}
+	.padding_lt-rt_5 {
+		padding-right: 5px !important;
+		padding-left: 5px !important;
+	}
+	.region-tabloid-one{
+		text-align:center;	
+	}
+	.tabloid_one_contents{
+		text-align:center;
+	}
+	.region-tabloid-one img {
+		width:130px !important;	
+	}
+	.region-tabloid-two{
+		text-align:center;	
+	}
+	.tabloid_two_contents{
+		text-align:center;
+	}
+	.region-tabloid-two img {
+		width:130px !important;	
+	}
+	.region-tabloid-three{
+		text-align:center;	
+	}
+	.tabloid_three_contents{
+		text-align:center;
+	}
+	.region-tabloid-three img {
+		width:130px !important;	
+	}
+	.region-tabloid-four{
+		text-align:center;	
+	}
+	.tabloid_four_contents{
+		text-align:center;
+	}
+	.region-tabloid-four img {
+		width:130px !important;	
+	}
+	.contest_first{
+		margin: 15px  auto 15px auto !important;
+		width: 140px !important;
+	}
+	.contest_second{
+		margin: 15px  auto 15px auto !important;
+		width: 140px !important;
+	}
+	.contest_third{
+		margin: 15px  auto 15px auto !important;
+		width: 140px !important;
+	}
+	.contest_four{
+		margin: 15px  auto 15px auto !important;
+		width: 140px !important;
+	}
+	.region-weather-right{
+		width:320px !important;
+		margin: 5px  auto 0 auto !important;
+	}
+	.region-first-ad-right{
+		width:320px !important;
+		margin: 5px  auto 0 auto !important;
+	}
+	.region-second-ad-right{
+		width:320px !important;
+		margin: 5px  auto 0 auto !important;
+	}
+	.logo1 img {
+		margin: 0 auto !important;
+		width: 140px !important;
+	}
+	.region .region-listen-live  img {
+	  margin: 0 auto !important;
+	  text-align: center !important;
+}
+	.top_margin15{
+		margin-top:15px !important;	
+	}
+
+}

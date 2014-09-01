@@ -20,7 +20,7 @@
 }
 
 #tabs{
-	height:30px;
+	height:61px;
 	overflow:hidden;
 }
 
@@ -30,7 +30,7 @@
 }
 
 #tabs > ul > li{
-	margin:0 2px 0 0;
+	margin:27px 2px 0 2px;
 	padding:7px 10px;
 	display:block;
 	float:left;

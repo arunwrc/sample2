@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) { /* Screen Higher than 768px*/
+	.facebook_right{
+		border-left:1px solid white !important;
+		
+	}
+	.advertisement_right{
+		border-left:1px solid white !important;
+	}
+	.photos_right{
+		border-left:1px solid white !important;
+	}
+	.blog_right{
+		border-left:1px solid white !important;
+	}
+	.instagram_right{
+		border-left:1px solid white !important;
+	}	
+	.weather_right{
+		border-left:1px solid white !important;
+	}
+	.vertical_seperator{
+		border-left:1px solid #c2c2c2 !important;
+	}
+	.weather_right_header{
+		border-left:1px solid white !important;
+	}
+	.photos_right_header{
+		border-left:1px solid white !important;
+	}
+	.vertical_seperator_tabloid{
+		border-left:1px solid #c2c2c2 !important;
+		margin-bottom:10px;
+	}
+	.lime_yellow_color{
+		margin-top:15px !important;
+	}
+	.top_seperator{
+		margin-top:10px !important;	
+	}
+	.vertical_seperators{
+		border-left:1px solid #c2c2c2 !important;
+		
+		margin:10px 0 20px 0;
+	}
+	.video_description{
+		margin:-5px 0 8px 0 !important;
+
+	}
+	.no_padding{
+		padding-right: 0 !important;
+		padding-left: 0 !important;	
+	}
+	.no_padding_left{
+		padding-left: 0 !important;
+		
+	}
+	.padding_left_10 {
+		padding-left:10px !important;
+	}
+	
+
+
+	
+	.padding_lt-rt_5 {
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+	}
+	.top_margin15{
+		margin-top:0px !important;	
+	}
+	
+
+	
+}
+

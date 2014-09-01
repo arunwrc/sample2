@@ -17,6 +17,34 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Newly Created Regions ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+regions[timed_banner]  = 'Timed Banner'
+regions[listen_live]  = 'Listen Live'
+regions[listen_again]  = 'Listen Again'
+regions[apps]  = 'Apps'
+regions[slideshow]  = 'Slideshow'
+regions[radio2_tv]  = 'Radio2 TV'
+regions[tabloid_one]  = 'Tabloid One'
+regions[tabloid_two]  = 'Tabloid Two'
+regions[tabloid_three]  = 'Tabloid Three'
+regions[tabloid_four]  = 'Tabloid Four'
+regions[hot_on_radio_one]  = 'Hot On Radio One'
+regions[hot_on_radio_two]  = 'Hot On Radio Two'
+regions[hot_on_radio_three]  = 'Hot On Radio Three'
+regions[music]  = 'Music'
+regions[contests_first]  = 'Contests First'
+regions[contests_second]  = 'Contests Second'
+regions[contests_third]  = 'Contests Third'
+regions[contests_fourth]  = 'Contests Four'
+regions[contests]  = 'Contests'
+regions[social_media]  = 'Social Media - Right'
+regions[first_Ad_right]  = 'First Advertisement - Right'
+regions[photos]  = 'Photos - Right'
+regions[second_Ad_right]  = 'Second Advertisement  - Right'
+regions[weather_right]  = 'Weather - Right'
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -102,6 +130,8 @@ settings[toggle_search] = 1
 ; --------------
 stylesheets[all][] = bootstrap_subtheme/css/social_tabs/tabs.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended.css
+stylesheets[all][] = bootstrap_subtheme/css/boot-extended-TAB.css
+stylesheets[all][] = bootstrap_subtheme/css/boot-extended-PC.css
 stylesheets[all][] = bootstrap_subtheme/css/main.css
 stylesheets[all][] = bootstrap_subtheme/css/style.css
 stylesheets[all][] = bootstrap_subtheme/css/bootstrap.css
