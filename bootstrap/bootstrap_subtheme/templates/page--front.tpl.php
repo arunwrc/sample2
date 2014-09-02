@@ -286,7 +286,7 @@
 			<!--Radio2 TV Starts -->
 			<div class="row"><!-- row Starts For Heading-->
 					<div class="col-ie-12 col-md-12 lime_yellow_color">
-						<h2>Radio2 TV</h2>
+						<div class="content_title">Radio2 TV</div>
 					</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row">
@@ -294,17 +294,17 @@
 					<div class="radio2_tv_first">
 						<?php print render($page['radio2_tv']);?>
 					</div>
-					<div class="video_description">
+					<!--<div class="video_description">
 						Radio2 TVs
-					</div>
+					</div>-->
 				</div>
 				<div class="col-ie-6 col-xs-6 col-sm-12 col-md-6 vertical_seperator">
 					<div class="radio2_tv_second">
 						<?php print render($page['radio2_tv']);?>
 					</div>
-					<div class="video_description">
+					<!--<div class="video_description">
 						GN TV
-					</div>
+					</div>-->
 				</div>
 			</div>	
 			<!--Radio2 TV Ends -->
@@ -312,34 +312,37 @@
 
 			<!-- Tabloid Starts -->
 			<div class="row"><!-- row Starts For Heading-->
-				<div class="col-ie-12 col-sm-12 col-md-12 lightyellow">
-					<h2>Tabloid</h2>
+				<div class="col-ie-10 col-sm-10 col-md-10 lightyellow">
+					<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/tabloid.png"/>
 				</div>
+					
+					<div class="col-ie-2 col-sm-2 col-md-2  lightyellow bold_letters"><a href="#">more</a></div>
+				
 			</div><!-- row Ends For Heading-->
 			<div class="row"><!-- row Starts-->
 					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 padding_lt-rt_5 horizontal_seperator">
 						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
 							<?php print render($page['tabloid_one']);?>	
 						</div>	<!-- Newly Added Ends -->
-						<div class="col-md-12"><div class="tabloid_one_contents">Lorem Ipsum Dolar Sit 1</div></div>
+						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
 					</div>
 					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 horizontal_seperator">
-						<div class="col-md-12 tabloid_2 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_two']);?>		
+						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
+							<?php print render($page['tabloid_one']);?>	
 						</div>	<!-- Newly Added Ends -->
-						<div class="col-md-12"><div class="tabloid_one_contents">Lorem Ipsum Dolar Sit 2</div></div>
+						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
 					</div>
 					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 horizontal_seperator">
-						<div class="col-md-12 tabloid_3 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_three']);?>		
+						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
+							<?php print render($page['tabloid_one']);?>			
 						</div>	<!-- Newly Added Ends -->	
-						<div class="col-md-12"><div class="tabloid_one_contents">Lorem Ipsum Dolar Sit 3</div></div>
+						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
 					</div>
 					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 ">
-						<div class="col-md-12 tabloid_4 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_four']);?>		
+						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
+							<?php print render($page['tabloid_one']);?>	
 						</div>	<!-- Newly Added Ends -->	
-						<div class="col-md-12"><div class="tabloid_one_contents">Lorem Ipsum Dolar Sit 4</div></div>
+						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
 					</div>
 			</div>  <!-- row end-->
 			<!-- Tabloid Ends -->
@@ -347,8 +350,11 @@
 			
 			<!--Hot on Radio2 Starts -->
 			<div class="row"><!-- row Starts For Heading-->
-				<div class="col-ie-12 col-md-12 lightyellowhot">
-					<h2>Hot On Radio2</h2>
+				<div class="col-ie-10 col-sm-10 col-md-10 lightyellowhot">
+					<div class="content_title">Hot On Radio2</div>
+				</div>
+				<div class="col-ie-2 col-sm-2 col-md-2 lightyellowhot bold_letters">
+					<div class="linkpadding"><a href="#">more</a></div>
 				</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row"><!-- row Starts-->
@@ -357,7 +363,7 @@
 						<?php print render($page['hot_on_radio_one']);?>
 					</div>	
 				<div class="hot_on_radio_contents">
-					Lorem Ipsum Dolor sit Hot on radio2 content goes here
+					<!--Lorem Ipsum Dolor sit Hot on radio2 content goes here-->
 				</div>
 				<div class="hyperlink_container">
 					<div class="more_hyperlink">
@@ -367,11 +373,11 @@
 				</div><!-- col-md-4 Ends-->
 				
 				<div class="col-ie-4 col-sm-12 col-md-4 whitecolor vertical_seperator padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="hot_onradio_2">
-						<?php print render($page['hot_on_radio_two']);?>
+					<div class="hot_onradio_1">
+						<?php print render($page['hot_on_radio_one']);?>
 					</div>	
 					<div class="hot_on_radio_contents">
-						Lorem Ipsum Dolor sit Hot on radio2 content goes here
+						<!--Lorem Ipsum Dolor sit Hot on radio2 content goes here-->
 					</div>
 					<div class="hyperlink_container">
 						<div class="more_hyperlink">
@@ -380,11 +386,11 @@
 					</div>				
 				</div><!-- col-md-4 Ends-->
 				<div class="col-ie-4 col-sm-12 col-md-4 whitecolor vertical_seperator padding_left_10 "><!-- col-md-4 Starts-->
-					<div class="hot_onradio_3">
-						<?php print render($page['hot_on_radio_three']);?>
+					<div class="hot_onradio_1">
+						<?php print render($page['hot_on_radio_one']);?>
 					</div>	
 					<div class="hot_on_radio_contents">
-						Lorem Ipsum Dolor sit Hot on radio2 content goes here
+						<!--Lorem Ipsum Dolor sit Hot on radio2 content goes here-->
 					</div>
 					<div class="hyperlink_container">
 						<div class="more_hyperlink">
@@ -397,8 +403,13 @@
 			
 			<!-- Music Starts-->
 			<div class="row"><!-- row Starts For Heading-->
-				<div class="col-ie-12 col-sm-12 col-xs-12 col-md-12 music_header">
-					<h2>Music</h2>
+				<div class="col-ie-10 col-sm-10 col-md-10 music_header">
+					<div class="content_title">Music</div>
+				</div>
+				<div class="col-ie-2 col-sm-2 col-md-2 music_header bold_letters">	
+					<div class="linkpadding">
+						<a href="#">see all </a>
+					</div>
 				</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row">
@@ -423,10 +434,10 @@
 				</div>
 				<!-- Second Content Starts -->
 				<div class="col-ie-2  col-sm-2 col-xs-2 col-md-2 kennyshow_number">
-					<p>01</p>
+					<p>03</p>
 				</div>
 				<div class="col-ie-2 col-sm-2 col-xs-1 col-md-2 kennyshow_number">
-					<p>02</p>
+					<p>04</p>
 				</div>
 				<div class="col-ie-4 col-sm-4 col-xs-4 col-md-4 kennyshow_contents">
 					<p>Kenny Show</p>
@@ -442,6 +453,27 @@
 					<p>Pa</p>
 				</div>
 				<!-- Second Content Ends-->
+				<!-- Third Content Starts -->
+				<div class="col-ie-2  col-sm-2 col-xs-2 col-md-2 kennyshow_number">
+					<p>05</p>
+				</div>
+				<div class="col-ie-2 col-sm-2 col-xs-1 col-md-2 kennyshow_number">
+					<p>06</p>
+				</div>
+				<div class="col-ie-4 col-sm-4 col-xs-4 col-md-4 kennyshow_contents">
+					<p>Kenny Show</p>
+				</div>
+				
+				
+				<!-- -->
+				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_play">
+					<p>Play</p>
+				</div>
+				
+				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_pause">
+					<p>Pa</p>
+				</div>
+				<!-- Third Content Ends-->
 
 				
 
@@ -450,8 +482,13 @@
 			
 			<!-- Contests Starts-->
 			<div class="row"><!-- row Starts For Heading-->
-					<div class="col-ie-12 col-sm-12 col-md-12 lime_yellow_color">
-						<h2>Contests</h2>
+					<div class="col-ie-10 col-sm-10  col-md-10 contest_header">
+						<div class="content_title">Contests</div>
+					</div>
+					<div class="col-ie-2 col-sm-2 col-md-2 contest_header bold_letters">
+						<div class="linkpadding">
+							<a href="#">more</a>
+						</div>
 					</div>
 			</div><!-- row Ends For Heading-->
 			<!--<div class="row">
@@ -482,22 +519,22 @@
 					</div>	
 				</div><!-- col-md-4 Ends-->
 				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_second">
-						<?php print render($page['contests_second']);?>
+					<div class="contest_first">
+						<?php print render($page['contests_first']);?>
 					  <!--<h2>Contest 2</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
 					</div>	
 				</div><!-- col-md-4 Ends-->
 				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_third">
-						<?php print render($page['contests_third']);?>
+					<div class="contest_first">
+						<?php print render($page['contests_first']);?>
 					  <!--<h2>Contest 3</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
 					</div>	
 				</div><!-- col-md-4 Ends-->
 				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_four">
-						<?php print render($page['contests_fourth']);?>
+					<div class="contest_first">
+						<?php print render($page['contests_first']);?>
 					  <!--<h2>Contest 4</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
 					</div>	
@@ -553,8 +590,14 @@
 			<h2>Photos</h2>
 			</div>
 			
-			<div class="col-ie-4 col-sm-12 col-md-4 photos_right"><!-- col-md-4 Starts--> 
-				
+			<div class="col-ie-4 col-sm-12 col-md-4"><!-- col-md-4 Starts--> 
+				<div class="col-ie-6 col-md-6 col-sm-12 col-xs-12"><?php print render($page['photos']);?>	</div>	
+				<div class="col-ie-6 col-md-6 col-sm-12 col-xs-12"><?php print render($page['photos']);?></div>	
+			</div><!-- col-md-4 Ends-->
+			
+			<div class="col-ie-4 col-sm-12 col-md-4"><!-- col-md-4 Starts--> 
+				<div class="col-ie-6 col-md-6 col-sm-12 col-xs-12 "><?php print render($page['photos']);?>	</div>	
+				<div class="col-ie-6 col-md-6 col-sm-12 col-xs-12"><?php print render($page['photos']);?></div>	
 			</div><!-- col-md-4 Ends-->
 			
 			

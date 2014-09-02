@@ -198,6 +198,7 @@
 	.region-first-ad-right{
 		
 		margin: 5px  auto 0 auto !important;
+		width: 100% !important;
 	}
 	.region-second-ad-right{
 		width:320px !important;
@@ -214,5 +215,6 @@
 	.top_margin15{
 		margin-top:15px !important;	
 	}
+
 
 }

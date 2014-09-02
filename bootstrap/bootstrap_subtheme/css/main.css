@@ -104,11 +104,13 @@
 }
 .lightyellow{
 	background-color:#fde8a9;
-	height:70px;	
+	height:70px;
+	padding-top: 35px;	
 }
 
 .lightyellowhot{
 	background-color:#fdf68b;
+	height:70px;
 }
 .pinkcolors{
 	background-color:#C9C;
@@ -169,8 +171,14 @@
 	background-color:#e472ad;
 }
 .music_header{
-	background-color:#e472ad;
+	background-color:#ebe93f;
 	margin-bottom:15px;
+	height:70px;
+}
+.contest_header{
+	background-color:#fde8a9;
+	margin-bottom:15px;
+	height:70px;
 }
 
 .hot_onradio_1{
@@ -349,6 +357,24 @@ height:250px;
 }
 .horizontal_border{
 	border-bottom:0;
+}
+.bold_letters{
+	font-weight:bold;	
+}
+.bold_letters a{
+	color:#333;
+	vertical-align: text-top;
+}
+.bold_letters a:hover{
+	text-decoration:none;
+}
+.content_title{
+	font-size:24px;
+	font-weight:bold;
+	padding-top: 30px;	
+}
+.linkpadding{
+	padding-top: 35px;	
 }
 
 

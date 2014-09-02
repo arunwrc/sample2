@@ -71,6 +71,54 @@
 		width:100% !important;	
 		height:auto !important;
 	}
+	.region-radio2-tv iframe {
+		width:100%;
+		height:auto;
+	}
+	/*
+	***************************************** */
+	.region-radio2-tv .views-field-title {
+		text-align:center;
+	}
+	.region-radio2-tv .views-field-title a {
+		text-decoration:none;
+		color:#999;
+		font-weight:normal;
+	}
+	.tabloid_1 .views-field-title {
+		  text-align: center;
+		  
+	}
+	.tabloid_1 .views-field-title a{
+		  text-decoration: none;
+		  color:#333;
+	}
+	.region-hot-on-radio-one{
+		  text-align:center;
+	}
+	.region-hot-on-radio-one .views-field-title a{
+		  text-decoration:none;
+		  color:#333;
+	}
+	.region-photos .views-field-field-photos{
+		  margin-top:15px;
+		  text-align:center;
+	}
+	.region-hot-on-radio-one .radio2-tv img {
+		width:100% !important;	
+		height:auto !important;
+	}
+	.region-tabloid-one img {
+		width:100% !important;
+		height:auto !important;
+	}
+	.region-contests-first img {
+		width:100% !important;
+		height:auto !important;
+	}
+
+	/*
+	***************************************** */
 /* 
 *************/	
 

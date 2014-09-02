@@ -34,6 +34,9 @@
 	.lime_yellow_color{
 		margin-top:15px !important;
 	}
+	.contest_header{
+		margin-top:15px !important;
+	}
 	.top_seperator{
 		margin-top:10px !important;	
 	}
@@ -57,7 +60,9 @@
 	.padding_left_10 {
 		padding-left:10px !important;
 	}
-	
+	.horizontal_seperators{
+		border-top:1px solid #ccc !important;	
+	}
 
 
 	
