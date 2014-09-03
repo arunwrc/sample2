@@ -75,7 +75,7 @@
 /* */
 .tabloid_1{
 	/*background:url(../img/content/large/tabloid_1.png) no-repeat;*/
-	height:100px;
+	height:auto;
 	margin:10px 0 10px 0;
 	
 }
@@ -156,7 +156,7 @@
 }
 .whitecolor{
 	background-color:#FFF;
-	height:250px;
+	height:auto;
 	margin:10px 0 15px 0;
 }
 .whitecolors{
@@ -185,7 +185,7 @@
 	/*background:url(../img/content/large/hot_on_radio_1.png);*/
 	background-repeat:no-repeat;
 	width:100%;
-	height:135px;
+	height:auto;
 	margin:5px 0 0 0;
 }
 .hot_onradio_2{
@@ -205,7 +205,7 @@
 .contest_first{
 	/*background:url(../img/content/large/contest_3.png);
 	width:140px !important;*/
-	height:195px;
+	height:auto;
 	margin:5px 0 5px 0;
 }
 .contest_second{
@@ -231,7 +231,7 @@
 .radio2_tv_first{
 	
 	/*min-width:184px !important; */
-	height:175px;
+	height:auto;
 	margin:20px 0 20px 0;
 	
 }

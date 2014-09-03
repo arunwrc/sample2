@@ -5,7 +5,6 @@
 	<meta charset='UTF-8' />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
     <title>Bootstrap 101 Template</title>
-
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -290,20 +289,12 @@
 					</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row">
-				<div class="col-ie-6 col-xs-6 col-sm-12 col-md-6  horizontal_seperator">
+				<div class="col-ie-6 col-xs-6 col-sm-12 col-md-12">
 					<div class="radio2_tv_first">
 						<?php print render($page['radio2_tv']);?>
 					</div>
 					<!--<div class="video_description">
 						Radio2 TVs
-					</div>-->
-				</div>
-				<div class="col-ie-6 col-xs-6 col-sm-12 col-md-6 vertical_seperator">
-					<div class="radio2_tv_second">
-						<?php print render($page['radio2_tv']);?>
-					</div>
-					<!--<div class="video_description">
-						GN TV
 					</div>-->
 				</div>
 			</div>	
@@ -315,33 +306,13 @@
 				<div class="col-ie-10 col-sm-10 col-md-10 lightyellow">
 					<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/tabloid.png"/>
 				</div>
-					
 					<div class="col-ie-2 col-sm-2 col-md-2  lightyellow bold_letters"><a href="#">more</a></div>
-				
 			</div><!-- row Ends For Heading-->
 			<div class="row"><!-- row Starts-->
-					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 padding_lt-rt_5 horizontal_seperator">
+					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-12 col-lg-12 padding_lt-rt_5 horizontal_seperator">
 						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
 							<?php print render($page['tabloid_one']);?>	
 						</div>	<!-- Newly Added Ends -->
-						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
-					</div>
-					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 horizontal_seperator">
-						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_one']);?>	
-						</div>	<!-- Newly Added Ends -->
-						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
-					</div>
-					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 horizontal_seperator">
-						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_one']);?>			
-						</div>	<!-- Newly Added Ends -->	
-						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
-					</div>
-					<div class="col-ie-3 col-xs-12 col-sm-12 col-md-3 col-lg-3 vertical_seperator_tabloid padding_lt-rt_5 ">
-						<div class="col-md-12 tabloid_1 padding_left_10"> <!-- Newly Added Starts -->
-							<?php print render($page['tabloid_one']);?>	
-						</div>	<!-- Newly Added Ends -->	
 						<div class="col-md-12"><div class="tabloid_one_contents"><!--Lorem Ipsum Dolar Sit 1--></div></div>
 					</div>
 			</div>  <!-- row end-->
@@ -358,7 +329,7 @@
 				</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row"><!-- row Starts-->
-				<div class="col-ie-4 col-sm-12 col-md-4 whitecolor padding_left_10 horizontal_seperator "><!-- col-md-4 Starts-->
+				<div class="col-ie-4 col-sm-12 col-md-12 whitecolor padding_left_10 horizontal_seperator "><!-- col-md-4 Starts-->
 					<div class="hot_onradio_1">
 						<?php print render($page['hot_on_radio_one']);?>
 					</div>	
@@ -367,36 +338,9 @@
 				</div>
 				<div class="hyperlink_container">
 					<div class="more_hyperlink">
-						<a href="#">read more..</a>
+						<a href="#"></a>
 					</div>
 				</div>
-				</div><!-- col-md-4 Ends-->
-				
-				<div class="col-ie-4 col-sm-12 col-md-4 whitecolor vertical_seperator padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="hot_onradio_1">
-						<?php print render($page['hot_on_radio_one']);?>
-					</div>	
-					<div class="hot_on_radio_contents">
-						<!--Lorem Ipsum Dolor sit Hot on radio2 content goes here-->
-					</div>
-					<div class="hyperlink_container">
-						<div class="more_hyperlink">
-							<a href="#">read more..</a>
-						</div>
-					</div>				
-				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-4 col-sm-12 col-md-4 whitecolor vertical_seperator padding_left_10 "><!-- col-md-4 Starts-->
-					<div class="hot_onradio_1">
-						<?php print render($page['hot_on_radio_one']);?>
-					</div>	
-					<div class="hot_on_radio_contents">
-						<!--Lorem Ipsum Dolor sit Hot on radio2 content goes here-->
-					</div>
-					<div class="hyperlink_container">
-						<div class="more_hyperlink">
-							<a href="#">read more..</a>
-						</div>
-					</div>		
 				</div><!-- col-md-4 Ends-->
 			</div><!-- row Ends-->
 			<!--Hot on Radio2 Ends -->
@@ -511,31 +455,10 @@
 			<!-- Contest Ends-->
 
 				<div class="row"><!-- row Starts-->
-				<div class="col-ie-3 col-sm-12 col-md-3   padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
+				<div class="col-ie-3 col-sm-12 col-md-12   padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
 					<div class="contest_first">
 						<?php print render($page['contests_first']);?>
 					  <!--<h2>Contest 1</h2>
-						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
-					</div>	
-				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_first">
-						<?php print render($page['contests_first']);?>
-					  <!--<h2>Contest 2</h2>
-						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
-					</div>	
-				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_first">
-						<?php print render($page['contests_first']);?>
-					  <!--<h2>Contest 3</h2>
-						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
-					</div>	
-				</div><!-- col-md-4 Ends-->
-				<div class="col-ie-3 col-sm-12 col-md-3   vertical_seperator_contest padding_left_10 horizontal_seperator"><!-- col-md-4 Starts-->
-					<div class="contest_first">
-						<?php print render($page['contests_first']);?>
-					  <!--<h2>Contest 4</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis euismod semper</p>-->
 					</div>	
 				</div><!-- col-md-4 Ends-->
