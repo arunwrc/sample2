@@ -346,79 +346,9 @@
 			<!--Hot on Radio2 Ends -->
 			
 			<!-- Music Starts-->
+			
 			<div class="row"><!-- row Starts For Heading-->
-				<div class="col-ie-10 col-sm-10 col-md-10 music_header">
-					<div class="content_title">Music</div>
-				</div>
-				<div class="col-ie-2 col-sm-2 col-md-2 music_header bold_letters">	
-					<div class="linkpadding">
-						<a href="#">see all </a>
-					</div>
-				</div>
-			</div><!-- row Ends For Heading-->
-			<div class="row">
-				<div class="col-ie-2  col-sm-2 col-xs-2 col-md-2 kennyshow_number">
-					<p>01</p>
-				</div>
-				<div class="col-ie-2 col-sm-2 col-xs-1 col-md-2 kennyshow_number">
-					<p>02</p>
-				</div>
-				<div class="col-ie-4 col-sm-4 col-xs-4 col-md-4 kennyshow_contents">
-					<p>Kenny Show</p>
-				</div>
-				
-				
-				<!-- -->
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_play">
-					<p>Play</p>
-				</div>
-				
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_pause">
-					<p>Pa</p>
-				</div>
-				<!-- Second Content Starts -->
-				<div class="col-ie-2  col-sm-2 col-xs-2 col-md-2 kennyshow_number">
-					<p>03</p>
-				</div>
-				<div class="col-ie-2 col-sm-2 col-xs-1 col-md-2 kennyshow_number">
-					<p>04</p>
-				</div>
-				<div class="col-ie-4 col-sm-4 col-xs-4 col-md-4 kennyshow_contents">
-					<p>Kenny Show</p>
-				</div>
-				
-				
-				<!-- -->
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_play">
-					<p>Play</p>
-				</div>
-				
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_pause">
-					<p>Pa</p>
-				</div>
-				<!-- Second Content Ends-->
-				<!-- Third Content Starts -->
-				<div class="col-ie-2  col-sm-2 col-xs-2 col-md-2 kennyshow_number">
-					<p>05</p>
-				</div>
-				<div class="col-ie-2 col-sm-2 col-xs-1 col-md-2 kennyshow_number">
-					<p>06</p>
-				</div>
-				<div class="col-ie-4 col-sm-4 col-xs-4 col-md-4 kennyshow_contents">
-					<p>Kenny Show</p>
-				</div>
-				
-				
-				<!-- -->
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_play">
-					<p>Play</p>
-				</div>
-				
-				<div class="col-ie-2 col-sm-2 col-xs-2 col-md-2 kennyshow_pause">
-					<p>Pa</p>
-				</div>
-				<!-- Third Content Ends-->
-
+				<?php print render($page['music']);?>
 				
 
 			</div>

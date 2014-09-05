@@ -127,23 +127,27 @@
 .kennyshow_number{
 	height:85px;
 	width:70px;
-	background-color:#e4e4e4;	
-	border-bottom:1px solid black;
+	background-color:#f3f3f3;	
+	border-top:1px solid #ccc;	
+	border-bottom:1px solid #ccc;	
 }
 .kennyshow_contents{
 	height:85px;
-	background-color:#EBEBEB;
-	border-bottom:1px solid black;	
+	background-color:#FFF;
+	border-top:1px solid #ccc;	
+	border-bottom:1px solid #ccc;	
 }
 .kennyshow_play{
 	height:85px;
-	background-color:#0CF;
-	border-bottom:1px solid black;	
+	background-color:#FFF;
+	border-top:1px solid #ccc;	
+	border-bottom:1px solid #ccc;	
 }
 .kennyshow_pause{
 	height:85px;
-	background-color:#69F;
-	border-bottom:1px solid black;	
+	background-color:#FFF;
+	border-top:1px solid #ccc;	
+	border-bottom:1px solid #ccc;	
 }
 .white{
 	background-color:#FFF;
@@ -376,7 +380,26 @@ height:250px;
 .linkpadding{
 	padding-top: 35px;	
 }
-
+.music_artist_name{
+	font-size:14px;
+	font-weight:bold;
+	color:#999;	
+}
+.music_album_name{
+	font-size:12px;
+	font-style:italic;
+	color:#666;
+}
+.music_count{
+	font-size:26px;
+	font-weight:bold;
+	color:red;
+	
+}
+.no_margin{
+margin-right: 0 !important;
+margin-left: 0 !important;
+}
 
 
 

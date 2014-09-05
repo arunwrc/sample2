@@ -40,6 +40,12 @@
 	.top_seperator{
 		margin-top:10px;	
 	}
+	.top_seperator_music{
+		margin-top:5px !important;	
+	}
+	.music_image img {
+		border-radius:50px !important;
+	}
 	.vertical_seperators{
 		border-left:1px solid #c2c2c2;
 		margin:10px 0 20px 0;
