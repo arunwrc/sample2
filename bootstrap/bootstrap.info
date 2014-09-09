@@ -44,7 +44,12 @@ regions[first_Ad_right]  = 'First Advertisement - Right'
 regions[photos]  = 'Photos - Right'
 regions[second_Ad_right]  = 'Second Advertisement  - Right'
 regions[weather_right]  = 'Weather - Right'
-
+regions[footer_top_first]  = 'Footer Top First'
+regions[footer_top_second]  = 'Footer Top Second'
+regions[footer_top_third]  = 'Footer Top Third'
+regions[footer_bottom_first]  = 'Footer Bottom First'
+regions[footer_bottom_second]  = 'Footer Bottom Second'
+regions[footer_bottom_third]  = 'Footer Bottom Third'
 
 
 ;;;;;;;;;;;;;;;;;;;;;

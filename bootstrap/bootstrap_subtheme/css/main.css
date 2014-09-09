@@ -257,15 +257,15 @@
 	margin:0 auto;
 }
 .subfooter_subone{
-	background-color:#CCC;
+	background-color:#2e81cf;
 	height:270px;
 }
 .subfooter_subtwo{
-	background-color:#999;
+	background-color:#2e81cf;
 	height:270px;
 }
 .subfooter_subthree{
-	background-color:#666;
+	background-color:#2e81cf;
 	height:270px;
 }
 .subfooter-container{
@@ -400,16 +400,116 @@ height:250px;
 margin-right: 0 !important;
 margin-left: 0 !important;
 }
+/* Simple Newsletter Styles */
+.simplenews-subscribe .form-submit {
+background: none repeat scroll 0% 0% #2A44A5;
+color: #FFF;
+font-weight: bold;
+border: 8px solid #88c1f6;
+height: 50px;
+border-radius: 2px;
+position: relative;
+top: -65px;
+left: 70%;
+}
+.simplenews-subscribe .form-text {
+width: 100%;
+background: none repeat scroll 0% 0% #88c1f6;
+border: 5px solid #88c1f6;
+height: 50px;
+margin-left: 4px;
+color: #FFF;
 
+margin-right: 2%;
+}
+.form-item-mail label {
+display: none;
+}
+.region-footer-top-first .block-simplenews h2{
+  display: none !important;
+}
+.region-footer-top-first .block-simplenews p{
+  display: none !important;
+}
+.footer_subscription_text{
+	color: #fff;
+	padding-bottom: 3px;
+	font-size: 14px;
+	/*font-family: "TitilliumWeb-Regular";*/
+	font-weight: bold;
+	border-bottom:1px solid white;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.simplenews-subscribe {
+  height: 35px;
+}
+.form-control:focus {
+    border-color: none !important;
+}
+.issues-link a {
+  display: none;
+}
 
+.feed-icon img {
+  display: none;
+}
 
+.radio2_footer_icon{
+	margin-top:18px;
+}
+.radio2_footer_wrapper{
+	
+}
+.radio1icon_footer{
+	margin-top: -8px;
+}
+.humicon_footer{
+	margin-top:15px;	
+}
+.smoothicon_footer{
+	margin-top:15px;
+}
+.radio2rockicon_footer{
+	margin-top:15px;
+}
+.joshicon_footer{
+	margin-left:-8px;
+}
+.footer_link a {
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 13px;
+	text-decoration:none;
+}
+.footer_link a:hover {
+	color: #FFF;
+	text-decoration:none;
+}
 
+.useful_links{
+	margin-top: 66px;
+}
+.footer_links_middle a{
+	color:#FFF;
+}
+.footer_links_middle a:hover{
+	text-decoration:none;
+	color:#FFF;
+}
 
-
-
-
-
-
+.call_here{
+	color:white;
+	margin-top:15px;
+	font-size:11px;
+}
+.call_here_bottom{
+	color:white;
+	margin-top:9px;
+	font-size:15px;	
+	font-weight:bold;
+}
 
 
 

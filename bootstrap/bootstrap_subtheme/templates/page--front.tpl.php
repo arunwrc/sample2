@@ -488,14 +488,98 @@
 		 <div class="container radio2-container">
          <div class="row">
 					<div class="col-ie-5 col-sm-12 col-md-5 col-lg-5 subfooter_subtwo">
-						<p>SubFooter 1</p>
+					<div class="footer_subscription_text">Subscribe to our Newsletter</div>
+						<?php print render($page['footer_top_first']);?>
+					<div class="footer_subscription_text"> 
+						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/gnbroadcasting.png">
 					</div>
-					<div class="col-ie-5 col-sm-12 col-md-5 col-lg-5 subfooter_subone">
-						<p>SubFooter 2</p>
+					<div class="radio2_footer_wrapper">
+						<div class="col-md-3 col-sm-12 radio2_footer_icon">
+							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2icon.png">
+						</div>
 					</div>
-					<div class="col-ie-2 col-sm-12 col-md-2 col-lg-2 subfooter_subthree">
-						<p>SubFooter 3</p>
+					<div class="col-md-3 col-sm-12 radio1icon_footer">
+						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radi1icon.png">
+						<div class="humicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/humicon.png"></div>	
 					</div>
+					
+					<div class="col-md-3 col-sm-12 joshicon_footer">
+						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/joshicon.png">
+						<div class="smoothicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/smoothicon.png"></div>	
+					</div>	
+					<div class="col-md-3 col-sm-12 ">
+						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/hayathicon.png">
+						<div class="radio2rockicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2rockicon.png"></div>	
+					</div>	
+					</div>
+					
+					
+					
+					
+					
+					<div class="col-ie-4 col-sm-12 col-md-4 col-lg-4 subfooter_subone ">
+					<div class="footer_subscription_text">Other links</div>
+						<div class="footer_link">
+							<a href="#">Home</a>
+							<a href="#">Shows</a>
+							<a href="#">Music</a>
+							<a href="#">News</a>
+							<a href="#">Win</a>
+						</div>
+					<div class="footer_subscription_text useful_links">Useful links</div>
+						<?php print render($page['footer_top_second']);?>
+							<div class="col-md-5 no_padding footer_links_middle">
+								<div>
+									<a href="#">Contact us</a>
+								</div>
+								<div>
+									<a href="#">Terms of Use</a>
+								</div>
+								<div>
+									<a href="#">About Radio 2</a>
+								</div>
+							</div>
+							<div class="col-md-7 footer_links_middle">
+								<div>
+									<a href="#">Privacy Policy</a>
+								</div>
+								<div>
+									<a href="#">Advertising</a>
+								</div>
+							</div>
+					</div>
+					<div class="col-ie-3 col-sm-12 col-md-3 col-lg-3 subfooter_subthree">
+					<div class="footer_subscription_text">Get Social</div>
+						<div class="col-md-3">
+							ico1
+						</div>
+						<div class="col-md-3 no_padding">
+							ico2
+						</div>
+						<div class="col-md-3 no_padding">
+							ico3
+						</div>
+						<div class="col-md-3 no_padding">
+							ico4
+						</div>
+						
+						<?php print render($page['footer_top_third']);?>
+						<div class="col-md-4">	
+						<div class="footer_link_calln_sms">
+							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">
+						</div>
+						</div>
+						<div class="col-md-8 call_here no_padding">	
+						Send "Win"
+						</div>
+						<div class="call_here_bottom">
+						5180
+						</div>
+						<div class="col-md-12 call_here">
+							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">Call Us !
+						</div>
+					</div>
+					
          </div>
          </div>
 		<!-- Footer Starts --> 
