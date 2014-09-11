@@ -510,10 +510,47 @@ display: none;
 	font-size:15px;	
 	font-weight:bold;
 }
-
-
-
-
+.kennyshow_pause{
+  height: 85px;
+  line-height:69px;
+}
+.kennyshow_pause a img{
+ vertical-align:middle;
+}
+.dynamic_timed_banner{
+	width:100%;
+	height:auto;
+}
+.views-field-field-youtube-link .field-content{
+	display:none;
+}
+.photo_description {
+	height: 58px;
+}
+.photo_wrapper{
+	margin-top:15px;
+	text-align:center;
+}
+.photo_more_link{
+float: right;
+line-height: 3;
+vertical-align: bottom;
+}
+.photo_margin_bottom{
+margin-bottom: 15px;
+}
+.photo_border_bottom{
+border-bottom:1px solid #ccc;
+border-left:1px solid #FFF;
+}
+.photo_wrapper img {
+	width:100%;
+	height:auto;
+}
+.photo_more_link img {
+	width:100%;
+	height:auto;
+}
 
 
 

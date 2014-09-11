@@ -65,11 +65,13 @@
 	}
 	.listen_live_wrapper{
 		background-color:#292929;
+		text-align:center;
 		
 	}
 	.apps_wrapper{
 		background-color:#3a3a3a;
 		height:55px;
+		text-align:center;
 	}
 		.whitecolors{
 		height:195px !important;	
@@ -214,5 +216,13 @@
 	}
 	.top_margin15{
 		margin-top:15px !important;	
+	}
+	.photo_wrapper img {
+	width:144px !important;
+	height:103px !important;
+	}
+	.photo_more_link img {
+	width:24px !important;
+	height:24px !important;
 	}
 }

@@ -21,6 +21,7 @@ regions[page_bottom]    = 'Page bottom'
 ;; Newly Created Regions ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 regions[timed_banner]  = 'Timed Banner'
+regions[dynamic_timed_banner]  = 'Dynamic Timed Banner'
 regions[listen_live]  = 'Listen Live'
 regions[listen_again]  = 'Listen Again'
 regions[apps]  = 'Apps'
