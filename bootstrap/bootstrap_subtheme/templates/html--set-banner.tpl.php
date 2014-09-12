@@ -20,7 +20,7 @@ if($_POST['SET_BANNER']){
 							
 	
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 						break;
 		case 'Monday':
 						foreach ($nodes as $node){
@@ -34,7 +34,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 		case 'Tuesday':
 						foreach ($nodes as $node){
@@ -48,7 +48,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 		case 'Wednesday':
 						foreach ($nodes as $node){
@@ -62,7 +62,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 		case 'Thursday':
 						foreach ($nodes as $node){
@@ -76,7 +76,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 		case 'Friday':
 						foreach ($nodes as $node){
@@ -90,7 +90,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 		case 'Saturday':
 						foreach ($nodes as $node){
@@ -104,7 +104,7 @@ if($_POST['SET_BANNER']){
 							}
 							
 						}
-						if($ImageUrl==''){echo "/sites/all/themes/radio1/img/generic-big.png";}
+						if($ImageUrl==''){echo "/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/generic-big.png";}
 				break;
 	}
 

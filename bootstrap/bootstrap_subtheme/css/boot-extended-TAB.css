@@ -225,4 +225,15 @@
 	width:24px !important;
 	height:24px !important;
 	}
+	.wid{
+	width:100% !important;	
+	height:auto;
+	}
+	.jssort11 {
+  display: none !important;
+}
+	.region-radio2-tv iframe {
+		width:100% ;
+		height:auto;
+	}
 }

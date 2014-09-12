@@ -161,7 +161,7 @@
 .whitecolor{
 	background-color:#FFF;
 	height:auto;
-	margin:10px 0 15px 0;
+	margin:10px 0 0 0;
 }
 .whitecolors{
 	background-color:#FFF;
@@ -551,7 +551,30 @@ border-left:1px solid #FFF;
 	width:100%;
 	height:auto;
 }
+.field-hot-on-text{
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+}
+.hot_onradio_texts{
+	margin-top: 12px;
+}
+.tabloid_text{
+width: 100%;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+margin-top: 10px;
+}
+	.region-radio2-tv iframe {
+		width:274px ;
+		height:auto;
+	}
 
-
-
+.movieContainer .high_performance {
+	display:none !important;
+}
+.sm2-object-box{
+	display:none !important;
+}
 
