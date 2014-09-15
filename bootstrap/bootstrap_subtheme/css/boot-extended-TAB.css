@@ -236,4 +236,7 @@
 		width:100% ;
 		height:auto;
 	}
+	.map2{
+		display:none;
+	}
 }

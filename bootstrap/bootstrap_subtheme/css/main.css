@@ -3,7 +3,8 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
+ 
   .nav_container {
     width: 990px;
   }	  
@@ -21,7 +22,7 @@
 	
 .logo{
 	display:block;
-	background:url(../img/generic/large/logo/logo.png) no-repeat;
+	background:url(sites/all/themes/bootstrap/bootstrap_subtheme/img/generic/large/logo/logo.png) no-repeat;
 	height:168px;
 	
 	
@@ -576,5 +577,16 @@ margin-top: 10px;
 }
 .sm2-object-box{
 	display:none !important;
+}
+/*.logo1 img {
+	width:210px;
+	height:168px;
+}
+.dynamic_timed_banner img{
+	width:560px;
+	height:168px;
+}*/
+.contact_breadcrumb{
+	background-color:#FCF;
 }
 

@@ -134,6 +134,7 @@ settings[toggle_search] = 1
 
 ; CSS NEWLY ADDED
 ; --------------
+stylesheets[all][] = bootstrap_subtheme/css/map.css
 stylesheets[all][] = bootstrap_subtheme/css/social_tabs/tabs.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended-TAB.css

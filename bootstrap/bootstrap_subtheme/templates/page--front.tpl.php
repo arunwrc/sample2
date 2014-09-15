@@ -307,7 +307,7 @@
 					</div>
 			</div><!-- row Ends For Heading-->
 			<div class="row">
-				<div class="col-ie-6 col-xs-6 col-sm-12 col-md-12">
+				<div class="col-ie-12 col-xs-6 col-sm-12 col-md-12">
 					<div class="radio2_tv_first">
 						<?php print render($page['radio2_tv']);?>
 					</div>
@@ -512,20 +512,20 @@
 						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/gnbroadcasting.png">
 					</div>
 					<div class="radio2_footer_wrapper">
-						<div class="col-md-3 col-sm-12 radio2_footer_icon">
+						<div class="col-md-3 col-ie-3 col-sm-12 radio2_footer_icon">
 							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2icon.png">
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-12 radio1icon_footer">
+					<div class="col-md-3 col-ie-3 col-sm-12 radio1icon_footer">
 						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radi1icon.png">
 						<div class="humicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/humicon.png"></div>	
 					</div>
 					
-					<div class="col-md-3 col-sm-12 joshicon_footer">
+					<div class="col-md-3 col-ie-3 col-sm-12 joshicon_footer">
 						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/joshicon.png">
 						<div class="smoothicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/smoothicon.png"></div>	
 					</div>	
-					<div class="col-md-3 col-sm-12 ">
+					<div class="col-md-3 col-ie-3 col-sm-12 ">
 						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/hayathicon.png">
 						<div class="radio2rockicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2rockicon.png"></div>	
 					</div>	
@@ -546,7 +546,7 @@
 						</div>
 					<div class="footer_subscription_text useful_links">Useful links</div>
 						<?php print render($page['footer_top_second']);?>
-							<div class="col-md-5 no_padding footer_links_middle">
+							<div class="col-md-5 col-ie-5 no_padding footer_links_middle">
 								<div>
 									<a href="#">Contact us</a>
 								</div>
@@ -557,7 +557,7 @@
 									<a href="#">About Radio 2</a>
 								</div>
 							</div>
-							<div class="col-md-7 footer_links_middle">
+							<div class="col-md-7 col-ie-7 footer_links_middle">
 								<div>
 									<a href="#">Privacy Policy</a>
 								</div>
@@ -568,32 +568,32 @@
 					</div>
 					<div class="col-ie-3 col-sm-12 col-md-3 col-lg-3 subfooter_subthree">
 					<div class="footer_subscription_text">Get Social</div>
-						<div class="col-md-3">
+						<div class="col-ie-3 col-md-3">
 							ico1
 						</div>
-						<div class="col-md-3 no_padding">
+						<div class="col-ie-3 col-md-3 no_padding">
 							ico2
 						</div>
-						<div class="col-md-3 no_padding">
+						<div class="col-ie-3 col-md-3 no_padding">
 							ico3
 						</div>
-						<div class="col-md-3 no_padding">
+						<div class="col-ie-3 col-md-3 no_padding">
 							ico4
 						</div>
 						
 						<?php print render($page['footer_top_third']);?>
-						<div class="col-md-4">	
+						<div class="col-md-4 col-ie-4">	
 						<div class="footer_link_calln_sms">
 							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">
 						</div>
 						</div>
-						<div class="col-md-8 call_here no_padding">	
+						<div class="col-md-8 col-ie-8 call_here no_padding">	
 						Send "Win"
 						</div>
 						<div class="call_here_bottom">
 						5180
 						</div>
-						<div class="col-md-12 call_here">
+						<div class="col-md-12 col-ie-12 call_here">
 							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">Call Us !
 						</div>
 					</div>
