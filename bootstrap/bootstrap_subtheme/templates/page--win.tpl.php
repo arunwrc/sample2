@@ -53,31 +53,15 @@
 
 		<!-- Slideshow Starts -->
 		<div class="row"><!-- Row Starts -->
-			<div class="col-ie-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 no_padding top_margin15"><!-- col-md-12 Starts-->
-				<div class="col-ie-6 col-sm-12 col-xs-12 col-md-6 col-lg-6 no_padding">
-					<div class="map1">
-					<a href="https://maps.google.com/?ie=UTF8&ll=25.189049,55.254673&spn=0.015378,0.022724&t=m&z=16&vpsrc=6&iwloc=A&q=Gulf+
-News+Broadcasting&cid=8850665314556414596" target="_blank">
-						<img src="/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/map_dubai.png">
-					</a>	
-					</div>
-				</div>
-				<div class="col-ie-6 col-sm-12 col-xs-12 col-md-6 col-lg-6 no_padding">
-					<div class="map2">
-					<a href="https://maps.google.com/maps/ms?
-msa=0&msid=208303175367058508326.0004f0de699f4b2071dc0&ie=UTF8&ll=24.419154,54.43832
-9&spn=0.015474,0.022724&t=m&z=16&vpsrc=6&iwloc=0004f0de69a175915cb2e" target="_blank">
-						<img src="/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/map_abudhabi.png">	
-					</a>	
-					</div>
-				</div>
+			<div class="col-ie-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 no_padding top_margin15 win_banner_holder"><!-- col-md-12 Starts-->
+				<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/win_banner.png">
 			</div><!-- col-md-12 Ends-->	
 		</div><!-- Row Ends -->
 		<!-- Slideshow Ends -->
 		<!-- Breadcrumb Starts -->
 		<div class="row"><!-- Row Starts -->
 			<div class="col-lg-12 col-md-12 col-ie-12 col-sm-12 col-xs-12 contact_breadcrumb">
-				<a href="index.php">Home</a> <span class="contact_breadcrumb_link">  >  Contact</span>
+				<a href="index.php">Home</a> <span class="contact_breadcrumb_link">  >  Win</span>
 			</div>
 		</div><!-- Row Ends -->
 		<!-- Breadcrumb Ends -->
@@ -92,46 +76,26 @@ msa=0&msid=208303175367058508326.0004f0de699f4b2071dc0&ie=UTF8&ll=24.419154,54.4
 			
 			<!--Radio2 TV Starts -->
 			<div class="row"><!-- row Starts For Heading-->
-					<div class="col-ie-12 col-md-12 contact_title">
-						<div class="content_title">CONTACT US</div>
+			<!-- TABS STARTS-->
+			
+				<div class='tabs tabs_default winpage_tab_header'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">COMPETITIONS</a></li>
+						<li><a href="#tab-2">WINNERS</a></li>
+					</ul>
+					
+					<h2 class="competition_title">COMPETITIONS</h2>
+					<div class="col-ie-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id='tab-1'><?php print render($page['add_competitions']);?></div>
 					</div>
+					<div id='tab-2'><h3><?php print render($page['add_winners']);?></h3></div>
+				</div>
+			
+			<!-- TABS ENDS-->
+
 			</div><!-- row Ends For Heading-->
 			<!--Radio2 TV Ends -->
 			<!-- Form Starts -->
-					<div class="page-content-contactus-form">
-
-                    <form name="contactus" action="sites/all/themes/bootstrap/bootstrap_subtheme/templates/send_mail.php" method="post">
-
-                   
-
-						<div class="contact_field_name">Name</div><div class="contact_field_description">
-
-                        <input class="c_input" type="text" name="c_name" required/></div> 
-
-                        <div class="contact_field_name">Email</div><div class="contact_field_description">
-
-                        <input class="c_input" type="text" name="c_email" required /></div> 
-
-                        <div class="contact_field_name">Subject</div><div class="contact_field_description">
-
-                        <input class="c_input" type="text" name="c_subject" required /></div> 
-
-                        <div class="contact_field_name">Message</div><div class="contact_field_description">
-
-                        <textarea class="c_input_txtarea" name="c_message" ></textarea></div> 
-
-                        <div class="contact_field_button">
-
-                        	<input type="reset" class="imgClass_reset" name="reset" value="" />
-
-                        	<input type="submit" class="imgClass_send" name="send" value="" />
-
-                        </div>    
-
-                    </form>                    
-
-					</div>
-
 			<!-- Form Ends-->			
 			
 			
@@ -332,6 +296,14 @@ msa=0&msid=208303175367058508326.0004f0de699f4b2071dc0&ie=UTF8&ll=24.419154,54.4
 		<!-- Social Tabs Scripts Starts-->
 		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/social_tabs/tabs.js"></script>
 		<!-- Social Tabs Scripts Ends-->
+		
+		<!-- JS FOR WINPAGE TAB STARTS-->
+		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/winpage_tab/waypoints.min.js"></script>
+		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/winpage_tab/waypoints-sticky.min.js"></script>
+		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/winpage_tab/jquery.tabslet.min.js"></script>
+		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/winpage_tab/rainbow-custom.min.js"></script>
+		<script src="sites/all/themes/bootstrap/bootstrap_subtheme/js/winpage_tab/initializers.js"></script>
+		<!-- JS FOR WINPAGE TAB ENDS-->
 		
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

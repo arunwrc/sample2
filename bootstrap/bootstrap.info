@@ -52,6 +52,8 @@ regions[footer_bottom_first]  = 'Footer Bottom First'
 regions[footer_bottom_second]  = 'Footer Bottom Second'
 regions[footer_bottom_third]  = 'Footer Bottom Third'
 
+regions[add_competitions]  = 'Add Competitions'
+regions[add_winners]  = 'Add Winners'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings
@@ -134,6 +136,13 @@ settings[toggle_search] = 1
 
 ; CSS NEWLY ADDED
 ; --------------
+;;Stylesheet for Tabs Starts;;
+stylesheets[all][] = bootstrap_subtheme/css/win_tabs/reset.css
+stylesheets[all][] = bootstrap_subtheme/css/win_tabs/styles.css
+stylesheets[all][] = bootstrap_subtheme/css/win_tabs/typography.css
+;;Stylesheet for  Tabs  Ends;;
+
+
 stylesheets[all][] = bootstrap_subtheme/css/map.css
 stylesheets[all][] = bootstrap_subtheme/css/social_tabs/tabs.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended.css
@@ -152,6 +161,14 @@ stylesheets[all][] = bootstrap_subtheme/css/bootstrap-theme.min.css
 
 ;JS NEWLY ADDED
 ; --------------
+
+;;;;;;JS for Tabs Starts;;;;;;
+scripts[] = bootstrap_subtheme/js/winpage_tab/jquery.tabslet.min.js
+scripts[] = bootstrap_subtheme/js/winpage_tab/rainbow-custom.min.js
+scripts[] = bootstrap_subtheme/js/winpage_tab/waypoints.min.js
+scripts[] = bootstrap_subtheme/js/winpage_tab/waypoints-sticky.min.js
+;;;;;;JS for Tabs Starts;;;;;;
+
 scripts[] = bootstrap_subtheme/js/slideshow/social_tabs/tabs.js
 scripts[] = bootstrap_subtheme/js/slideshow/custom_jssor.js
 scripts[] = bootstrap_subtheme/js/slideshow/jquery-1.9.1.min.js

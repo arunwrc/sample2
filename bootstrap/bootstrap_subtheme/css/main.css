@@ -4,6 +4,33 @@
    Author's custom styles
    ========================================================================== */
 
+
+@font-face {
+	font-family:'Avenir';
+	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/AvenirNextLTPro-Bold.ttf')  format('truetype'),
+		 url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/AvenirNextLTPro-Bold.otf')  format('truetype');
+}
+@font-face {
+	font-family:'Helvetica-heading';
+	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/HelveticaLTStd-Bold.otf')  format('truetype');
+}
+@font-face {
+	font-family:'Roboto';
+	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/Roboto-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family:'Helvetica';
+	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/HelveticaLTStd-Blk.ttf')  format('truetype');
+}
+
+
+.collapse ul li a {
+	font-family: Avenir;
+	color:#FFF !important;
+	font-size:13px;
+}
+
  
   .nav_container {
     width: 990px;
@@ -95,6 +122,7 @@
 	height:100px;
 	margin:10px 0 10px 0;
 }
+
 .pinkcolor{
 	background-color:pink;
 	height:100px;	
@@ -174,6 +202,12 @@
 }
 .lime_yellow_color{
 	background-color:#e472ad;
+	height: 64px;
+}
+.contact_title{
+	background-color:#e472ad;
+	height:63px;
+	margin-top:15px;
 }
 .music_header{
 	background-color:#ebe93f;
@@ -240,6 +274,9 @@
 	margin:20px 0 20px 0;
 	
 }
+	.radio2_tv_first > iframe{
+		width:100% !important;	
+	}
 .radio2_tv_second{
 	
 	/* min-width:184px !important; */
@@ -263,7 +300,7 @@
 }
 .subfooter_subtwo{
 	background-color:#2e81cf;
-	height:270px;
+	height:auto;
 }
 .subfooter_subthree{
 	background-color:#2e81cf;
@@ -374,6 +411,7 @@ height:250px;
 	text-decoration:none;
 }
 .content_title{
+	font-family:Helvetica-heading;
 	font-size:24px;
 	font-weight:bold;
 	padding-top: 30px;	
@@ -411,7 +449,7 @@ height: 50px;
 border-radius: 2px;
 position: relative;
 top: -65px;
-left: 70%;
+left: 84%;
 }
 .simplenews-subscribe .form-text {
 width: 100%;
@@ -458,24 +496,36 @@ display: none;
 
 .radio2_footer_icon{
 	margin-top:18px;
+	text-align:center;
 }
 .radio2_footer_wrapper{
 	
 }
+
 .radio1icon_footer{
 	margin-top: -8px;
+	text-align:center;
 }
+
 .humicon_footer{
-	margin-top:15px;	
+	margin-top:5px;	
+	text-align:center;
 }
+
 .smoothicon_footer{
 	margin-top:15px;
+	text-align:center;
 }
 .radio2rockicon_footer{
 	margin-top:15px;
+	text-align:center;
 }
 .joshicon_footer{
 	margin-left:-8px;
+	text-align:center;
+}
+.hayathicon_footer{
+	text-align:center;
 }
 .footer_link a {
 	color: #FFF;
@@ -490,7 +540,7 @@ display: none;
 }
 
 .useful_links{
-	margin-top: 66px;
+	margin-top: 72px;
 }
 .footer_links_middle a{
 	color:#FFF;
@@ -553,10 +603,11 @@ border-left:1px solid #FFF;
 	height:auto;
 }
 .field-hot-on-text{
-	font-weight:bold;
+	font-family:Roboto;
 	font-size:11px;
 	color:#000;
 }
+
 .hot_onradio_texts{
 	margin-top: 12px;
 }
@@ -564,7 +615,7 @@ border-left:1px solid #FFF;
 width: 100%;
 text-align: center;
 font-size: 11px;
-font-weight: bold;
+font-family:Roboto;
 margin-top: 10px;
 }
 	.region-radio2-tv iframe {
@@ -588,5 +639,196 @@ margin-top: 10px;
 }*/
 .contact_breadcrumb{
 	background-color:#FCF;
+	margin-top:5px;
 }
+.contact_breadcrumb a{
+	text-decoration:none;
+	color:#666;
+	font-weight:bold;
+	font-size:12px;
+}
+.contact_breadcrumb_link{
+	text-decoration:none;
+	color:#666;
+	font-weight:bold;
+	font-size:12px;
+}
+.winpage_tab_header{
+	margin-top:15px;
+}
+.win_banner_holder img{
+	width:100%;
+	height:auto;
+}
+.field-competition-title{
+	margin-top:15px;
+	font-size:14px;
+	font-weight:bold;
+	color:#999;
+	
+}
+.field-competition-date{
+	margin-top:5px;
+	font-size:12px;
+	color:#999;
+	margin-left: 10px;
+}
+.field-competitions-image{
+	margin-top:30px;
+}
+.competition_title{
+	
+	margin-left: 10px;
+}
+img.home {
+	width: 25px;
+	height: 30px;
+	background: url(../img/content/large/Sprite.png) 0 0;
+}
+
+
+img.youtube-link{
+width: 24px;
+height: 30px;
+background: url(../img/content/large/Sprite.png) 577px -160px;
+}
+
+img.more-hot_on_radio{
+	width: 81px !important;
+	height: 30px !important;
+	background: url(../img/content/large/Sprite.png) 1920px -62px;
+	}
+
+
+img.facebook {
+	width: 106px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 480px -32px;
+}
+img.twitter {
+	width: 105px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 827px -32px;
+}
+img.instagram {
+	width: 103px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 600px -96px;
+}
+img.facebook:hover {
+	width: 106px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 607px -32px;
+}
+img.twitter:hover {
+	width: 105px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 955px -32px;
+}
+img.instagram:hover {
+	width: 103px;
+	height: 37px;
+	background: url(../img/content/large/Sprite.png) 1080px -96px;
+}
+
+
+img.gnb-footer-logo{
+	width:92px;
+	height:48px;
+	background: url(../img/content/large/Sprite.png) 0 -215px;
+}
+img.radio1-footer-logo{
+	width:53px;
+	height:52px;
+	background: url(../img/content/large/Sprite.png) -95px -215px;;
+}
+img.josh-footer-logo{
+	width:84px;
+	height:45px;
+	background: url(../img/content/large/Sprite.png) -160px -215px;
+}
+img.hayath-footer-logo{
+	width:84px;
+	height:42px;
+	background: url(../img/content/large/Sprite.png) -240px -215px;
+}
+img.hum-footer-logo{
+	width: 61px;
+	height: 45px;
+	background: url(../img/content/large/Sprite.png)  0px 285px;
+}
+img.smooth-footer-logo{
+	width: 76px;
+	height: 45px;
+	background: url(../img/content/large/Sprite.png)  -63px 285px;
+}
+img.radio2rock-footer-logo{
+	width: 81px;
+	height: 45px;
+	background: url(../img/content/large/Sprite.png)  -150px 281px;
+}
+img.facebook-footer-logo{
+	width: 30px;
+	height: 30px;
+	background: url(../img/content/large/Sprite.png) -126px -160px;
+}
+img.youtube-footer-logo{
+	width: 30px;
+	height: 30px;
+	background: url(../img/content/large/Sprite.png) -158px -160px;
+}
+img.twitter-footer-logo{
+	width: 30px;
+	height: 30px;
+	background: url(../img/content/large/Sprite.png) -192px -160px;
+}
+img.sound-cloud-footer-logo{
+	width: 30px;
+	height: 30px;
+	background: url(../img/content/large/Sprite.png) -224px -160px;
+}
+img.gnblogo-footer-logo{
+	width: 164px;
+	height:35px;
+	background: url(../img/content/large/Sprite.png) 0 -188px;
+}
+.footer_contact{
+font-family:Helvetica;	
+margin-bottom:3px;
+}
+
+.footer_terms-n-conditions{
+font-family:Helvetica;	
+margin-bottom:3px;	
+}
+.footer_about_radio2{
+font-family:Helvetica;	
+margin-bottom:3px;	
+}
+.footer_privacy_policy{
+font-family:Helvetica;
+margin-bottom:3px;	
+}
+.footer_advertising{
+font-family:Helvetica;		
+margin-bottom:3px;
+}
+
+
+
+
+.about_radio2{
+	
+}
+
+#tabs > ul > li > .tab1  {
+	background-color:red !important;
+}
+#tabs > ul > li > .tab2  {
+	background-color:yellow !important;
+}
+#tabContainer #tabs  ul  li  .tab3  {
+	background-color:green !important;
+}
+
 

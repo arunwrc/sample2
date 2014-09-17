@@ -4055,13 +4055,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-brand {
   color: #999;
-  background-color:red;
+  /*background-color:red;*/
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #fff;
-  /*background-color: transparent;*/
-  background-color:blue;
+ background-color: transparent;
+  /*background-color:blue;*/
 }
 .navbar-inverse .navbar-text {
   color: #999;

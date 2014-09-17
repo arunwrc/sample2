@@ -68,9 +68,9 @@
 		margin-bottom:10px;
 	}
 	.video_description{
+		font-family:Roboto;
 		margin:-5px 0 8px 0;
 		color:#999;
-		font-weight:bold;
 		text-align:center;
 	}
 	.views-field-body .field-content iframe{
@@ -108,8 +108,8 @@
 		  text-align:center;
 	}
 	.region-hot-on-radio-one .radio2-tv img {
-		width:100% !important;	
-		height:auto !important;
+		width:100%;	
+		height:auto;
 	}
 	.region-tabloid-one img {
 		width:100%;

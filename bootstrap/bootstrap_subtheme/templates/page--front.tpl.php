@@ -16,13 +16,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Radio2 </a>
+          <a class="navbar-brand" href="#"><img class="home" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"> </a>
         </div>
         <div class="navbar-collapse collapse">
 		 <ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Contact Us</a></li>
+			<li class="active"><a href="#">SHOWS</a></li>
+			<li><a href="#">MUSIC</a></li>
+			<li><a href="#">EVENTS</a></li>
+			<li><a href="#">WIN</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">RADIO2 TV</a></li>
 		  </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -203,6 +206,8 @@
 									}
 									* html .jssort11 .i
 									{
+
+
 										WIDTH /**/: 62px;
 										HEIGHT /**/: 32px;
 									}
@@ -366,11 +371,7 @@
 			<!-- Music Starts-->
 			
 			<div class="row"><!-- row Starts For Heading-->
-
-		
 				<?php print render($page['music']);?>
-				
-
 			</div>
 			<!-- Music Ends-->
 			
@@ -433,9 +434,9 @@
 				<div id="tabContainer">
 					<div id="tabs">
 					  <ul>
-						<li id="tabHeader_1">Facebook</li>
-						<li id="tabHeader_2">Twitter</li>
-						<li id="tabHeader_3">Instagram</li>
+						<li style="background-color:#FFF;" id="tabHeader_1" class="tab1"><img class="facebook" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></li>
+						<li id="tabHeader_2" class="tab2"><img class="twitter" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></li>
+						<li id="tabHeader_3" class="tab3"><img class="instagram" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></li>
 					  </ul>
 					</div>
 					<div id="tabscontent">
@@ -460,7 +461,7 @@
 			</div><!-- col-md-4 Ends-->
 		
 			<div class="col-ie-4 col-sm-12 col-md-4 photos_right_header">
-			<h2>Photos</h2>
+			<div class="content_title">Photos</div>
 			</div>
 			
 			<!-- Photos Start -->
@@ -479,12 +480,14 @@
 			
 			
 			<div class="col-ie-4 col-sm-12 col-xs-12 col-md-4 col-lg-4 weather_right_header">
-				<h2>Weather</h2>			
+				<div class="content_title">Soundcloud</div>
 			</div>
 			<div class="col-ie-4 col-sm-12 col-xs-12 col-md-4 col-lg-4 weather_right no_padding"><!-- col-md-4 Starts--> 
-				
-				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/50448839&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-				
+			<div class="hot_onradio_texts">
+				<param name="allowscriptaccess" value="always">
+<param name="src" value="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/50448839&amp;auto_play=false&amp;player_type=artwork&amp;color=ff7700&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true">
+<embed type="application/x-shockwave-flash" src="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/50448839&amp;auto_play=false&amp;player_type=artwork&amp;color=ff7700&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true" allowscriptaccess="always" height="450" width="100%"></object></p>
+			</div>	
 			</div><!-- col-md-4 Ends-->
 			
 
@@ -509,25 +512,26 @@
 					<div class="footer_subscription_text">Subscribe to our Newsletter</div>
 						<?php print render($page['footer_top_first']);?>
 					<div class="footer_subscription_text"> 
-						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/gnbroadcasting.png">
+				
+						<img class="gnblogo-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 					</div>
 					<div class="radio2_footer_wrapper">
-						<div class="col-md-3 col-ie-3 col-sm-12 radio2_footer_icon">
-							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2icon.png">
+						<div class="col-md-3 col-ie-3 col-sm-12 radio2_footer_icon">	
+							<img class="gnb-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 						</div>
 					</div>
 					<div class="col-md-3 col-ie-3 col-sm-12 radio1icon_footer">
-						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radi1icon.png">
-						<div class="humicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/humicon.png"></div>	
+						<img class="radio1-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+						<img class="hum-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 					</div>
 					
 					<div class="col-md-3 col-ie-3 col-sm-12 joshicon_footer">
-						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/joshicon.png">
-						<div class="smoothicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/smoothicon.png"></div>	
+						<img class="josh-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+					<img class="smooth-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 					</div>	
-					<div class="col-md-3 col-ie-3 col-sm-12 ">
-						<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/hayathicon.png">
-						<div class="radio2rockicon_footer"><img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/radio2rockicon.png"></div>	
+					<div class="col-md-3 col-ie-3 col-sm-12 hayathicon_footer">
+						<img class="hayath-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+						<img class="radio2rock-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 					</div>	
 					</div>
 					
@@ -547,21 +551,21 @@
 					<div class="footer_subscription_text useful_links">Useful links</div>
 						<?php print render($page['footer_top_second']);?>
 							<div class="col-md-5 col-ie-5 no_padding footer_links_middle">
-								<div>
+								<div class="footer_contact">
 									<a href="#">Contact us</a>
 								</div>
-								<div>
+								<div class="footer_terms-n-conditions">
 									<a href="#">Terms of Use</a>
 								</div>
-								<div>
+								<div class="footer_about_radio2">
 									<a href="#">About Radio 2</a>
 								</div>
 							</div>
 							<div class="col-md-7 col-ie-7 footer_links_middle">
-								<div>
+								<div class="footer_privacy_policy">
 									<a href="#">Privacy Policy</a>
 								</div>
-								<div>
+								<div class="footer_advertising">
 									<a href="#">Advertising</a>
 								</div>
 							</div>
@@ -569,16 +573,16 @@
 					<div class="col-ie-3 col-sm-12 col-md-3 col-lg-3 subfooter_subthree">
 					<div class="footer_subscription_text">Get Social</div>
 						<div class="col-ie-3 col-md-3">
-							ico1
+							<img class="facebook-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 						</div>
-						<div class="col-ie-3 col-md-3 no_padding">
-							ico2
+						<div class="col-ie-3 col-md-3">
+							<img class="youtube-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 						</div>
-						<div class="col-ie-3 col-md-3 no_padding">
-							ico3
+						<div class="col-ie-3 col-md-3">
+							<img class="twitter-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 						</div>
-						<div class="col-ie-3 col-md-3 no_padding">
-							ico4
+						<div class="col-ie-3 col-md-3">
+							<img class="sound-cloud-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
 						</div>
 						
 						<?php print render($page['footer_top_third']);?>
