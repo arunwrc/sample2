@@ -213,7 +213,7 @@ FOOTER {
 
 .active {
 	background: #a0cac0 !important;
-	border-bottom: 4px solid #68a697 !important;
+	/*border-bottom: 4px solid #68a697 !important;*/
 }
 
 .active A {

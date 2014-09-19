@@ -24,6 +24,11 @@
 	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/HelveticaLTStd-Blk.ttf')  format('truetype');
 }
 
+@font-face {
+	font-family:'Myraid';
+	src: url('/sites/all/themes/bootstrap/bootstrap_subtheme/fonts/MyriadPro-Semibold.otf')  format('truetype');
+}
+
 
 .collapse ul li a {
 	font-family: Avenir;
@@ -320,7 +325,7 @@
 	color:white;
 }
 .facebook_right{
-background-color:#75AAEC;
+background-color:#3b5999;
 height:480px;	
 margin-top:15px;
 }
@@ -423,11 +428,13 @@ height:250px;
 	font-size:14px;
 	font-weight:bold;
 	color:#999;	
+	font-family:Roboto;
 }
 .music_album_name{
 	font-size:12px;
 	font-style:italic;
 	color:#666;
+	font-family:Roboto;
 }
 .music_count{
 	font-size:26px;
@@ -443,23 +450,34 @@ margin-left: 0 !important;
 .simplenews-subscribe .form-submit {
 background: none repeat scroll 0% 0% #2A44A5;
 color: #FFF;
-font-weight: bold;
-border: 8px solid #88c1f6;
-height: 50px;
-border-radius: 2px;
+font-weight: normal;
+border: 0 solid #88c1f6;
+height: 32px;
+border-radius: 0;
 position: relative;
-top: -65px;
-left: 84%;
+top: -48px;
+left: 90.3%;
+width: 39px;
 }
+.simplenews-subscribe .form-submit:hover {
+
+border-color: #88c1f6 !important;
+}
+
 .simplenews-subscribe .form-text {
 width: 100%;
 background: none repeat scroll 0% 0% #88c1f6;
-border: 5px solid #88c1f6;
-height: 50px;
+height: 34px;
 margin-left: 4px;
 color: #FFF;
-
 margin-right: 2%;
+}
+.form-control{
+	border:0 !important;
+	border-radius:0 !important;
+}
+.simplenews-subscribe .simplenews-subscribe{
+	border: 0 !important;
 }
 .form-item-mail label {
 display: none;
@@ -549,17 +567,33 @@ display: none;
 	text-decoration:none;
 	color:#FFF;
 }
-
 .call_here{
-	color:white;
+	
 	margin-top:15px;
+
+}
+.call_here a{
+	color:white;
 	font-size:11px;
+	text-decoration:none;
 }
 .call_here_bottom{
+	margin-top:9px;
+}
+.call_here_bottom a{
 	color:white;
 	margin-top:9px;
 	font-size:15px;	
 	font-weight:bold;
+	text-decoration:none;
+}
+.call_here a:hover{
+	text-decoration:none;
+	color:white;
+}
+.call_here_bottom a:hover{
+	text-decoration:none;
+	color:white;
 }
 .kennyshow_pause{
   height: 85px;
@@ -577,6 +611,7 @@ display: none;
 }
 .photo_description {
 	height: 58px;
+	font-family:Roboto;
 }
 .photo_wrapper{
 	margin-top:15px;
@@ -638,20 +673,25 @@ margin-top: 10px;
 	height:168px;
 }*/
 .contact_breadcrumb{
-	background-color:#FCF;
+	background-color:#ecd5e7;
 	margin-top:5px;
+	height:25px;
 }
 .contact_breadcrumb a{
+	font-family:Helvetica;
 	text-decoration:none;
 	color:#666;
-	font-weight:bold;
 	font-size:12px;
+	vertical-align: -webkit-baseline-middle;
+
 }
 .contact_breadcrumb_link{
+	font-family:Helvetica;
 	text-decoration:none;
 	color:#666;
 	font-weight:bold;
 	font-size:12px;
+	vertical-align: -webkit-baseline-middle;
 }
 .winpage_tab_header{
 	margin-top:15px;
@@ -676,13 +716,42 @@ margin-top: 10px;
 .field-competitions-image{
 	margin-top:30px;
 }
-.competition_title{
-	
-	margin-left: 10px;
+
+img.ios_app {
+	width: 30px;
+	height: 32px;
+	background: url(../img/content/large/Sprite.png) -189px 3px;
 }
+img.android_app {
+	width: 30px;
+	height: 32px;
+	background: url(../img/content/large/Sprite.png) -252px 3px;
+}
+img.windows_app {
+	width: 30px;
+	height: 32px;
+	background: url(../img/content/large/Sprite.png) -317px 3px;
+}
+img.bb_app {
+	width: 30px;
+	height: 32px;
+	background: url(../img/content/large/Sprite.png) -379px 3px;
+}
+.apps_wrapper{
+	background-color:#292929;
+	text-align:center;
+	height:55px;
+}
+.app_text_wrapper{
+	font-family:Arial;
+	font-size:11px;
+	color:#666;
+	
+}
+
 img.home {
-	width: 25px;
-	height: 30px;
+	width: 30px;
+	height: 32px;
 	background: url(../img/content/large/Sprite.png) 0 0;
 }
 
@@ -703,7 +772,8 @@ img.more-hot_on_radio{
 img.facebook {
 	width: 106px;
 	height: 37px;
-	background: url(../img/content/large/Sprite.png) 480px -32px;
+	/*background: url(../img/content/large/Sprite.png) 480px -32px;*/
+	background: url(../img/content/large/Sprite.png) -1px -32px;
 }
 img.twitter {
 	width: 105px;
@@ -795,26 +865,37 @@ img.gnblogo-footer-logo{
 .footer_contact{
 font-family:Helvetica;	
 margin-bottom:3px;
+font-size: 12px;
 }
 
 .footer_terms-n-conditions{
 font-family:Helvetica;	
 margin-bottom:3px;	
+font-size: 12px;
 }
 .footer_about_radio2{
 font-family:Helvetica;	
 margin-bottom:3px;	
+font-size: 12px;
 }
 .footer_privacy_policy{
 font-family:Helvetica;
 margin-bottom:3px;	
+font-size: 12px;
 }
 .footer_advertising{
 font-family:Helvetica;		
 margin-bottom:3px;
+font-size: 12px;
 }
 
-
+.footer_text{
+font-family:Myraid;	
+margin-top:15px;	
+}
+.footer_third{
+	margin-top:55px;
+}
 
 
 .about_radio2{
@@ -830,5 +911,22 @@ margin-bottom:3px;
 #tabContainer #tabs  ul  li  .tab3  {
 	background-color:green !important;
 }
-
+.winners_bottom_seperator {
+	border-bottom:1px solid #ccc;
+	margin:5px 0 5px 0;
+}
+.field-winners-competition-name {
+	margin-bottom:5px;
+	font-family: Roboto;
+	color:#6D6565;
+}
+.field-winner-name{
+	margin-bottom:5px;
+	font-family: Roboto;
+	color:#6D6565;
+}
+.region-add-winners{
+	width:90%;  
+	margin-left: 25px;
+}
 

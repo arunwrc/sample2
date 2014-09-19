@@ -142,7 +142,7 @@ stylesheets[all][] = bootstrap_subtheme/css/win_tabs/styles.css
 stylesheets[all][] = bootstrap_subtheme/css/win_tabs/typography.css
 ;;Stylesheet for  Tabs  Ends;;
 
-
+stylesheets[all][] = bootstrap_subtheme/css/win.css
 stylesheets[all][] = bootstrap_subtheme/css/map.css
 stylesheets[all][] = bootstrap_subtheme/css/social_tabs/tabs.css
 stylesheets[all][] = bootstrap_subtheme/css/boot-extended.css

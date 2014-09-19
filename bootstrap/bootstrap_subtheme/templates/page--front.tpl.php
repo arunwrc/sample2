@@ -50,7 +50,16 @@
 			<div class="col-ie-2 col-xs-2 col-sm-12 col-md-2 col-lg-2 no_padding"><!-- col-md-2 Starts-->
 				<div class="listen_live_wrapper"><a href="https://audioboo.fm/publishing/playlist/v2?autoplay=false&boo_content_type=list&data_for_content_type=%2Fapi%2Fusers%2F44829%2Faudio_clips&src=%2Fapi%2Fusers%2F44829%2Faudio_clips&player_theme=light&link_color=%23004A97&image_option=small&show_title=true" target="_blank"><?php print render($page['listen_live']);?></a></div>
 				<div class="listen_live_wrapper"><a href="https://audioboo.fm/publishing/playlist/v2?autoplay=false&boo_content_type=list&data_for_content_type=%2Fapi%2Fusers%2F44829%2Faudio_clips&src=%2Fapi%2Fusers%2F44829%2Faudio_clips&player_theme=light&link_color=%23004A97&image_option=small&show_title=true" target="_blank"><?php print render($page['listen_again']);?><!--<div class="listen_again"></div>--></a></div>
-				<div class="apps_wrapper"><?php print render($page['apps']);?><!--<div class="apps"></div>--></div>
+				<div class="apps_wrapper">
+				<div class="app_text_wrapper">
+				Listen on the move
+				</div>
+				<?php //print render($page['apps']);?><!--<div class="apps"></div>-->
+				<a href="https://itunes.apple.com/us/app/radio-2/id703323007?mt=8" target="_blank"><img class="ios_app" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+				<a href="https://play.google.com/store/apps/details?id=com.streamtheworld.gulfnews&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5zdHJlYW10aGV3b3JsZC5ndWxmbmV3cyJd" target="_blank"><img class="android_app" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+				<a href="http://www.windowsphone.com/en-us/store/app/radio-2/0168f6a0-e981-4052-9894-4d61787b1289" target="_blank"><img class="windows_app" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+				<a href="http://appworld.blackberry.com/webstore/content/125076/?lang=en" target="_blank"><img class="bb_app" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+				</div>
 			</div><!-- col-md-2 Ends-->
 		</div><!-- Main row Ends -->	
 	
@@ -484,9 +493,22 @@
 			</div>
 			<div class="col-ie-4 col-sm-12 col-xs-12 col-md-4 col-lg-4 weather_right no_padding"><!-- col-md-4 Starts--> 
 			<div class="hot_onradio_texts">
+			
+				<!--<object height="625" width="100%"> 
 				<param name="allowscriptaccess" value="always">
-<param name="src" value="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/50448839&amp;auto_play=false&amp;player_type=artwork&amp;color=ff7700&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true">
-<embed type="application/x-shockwave-flash" src="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/50448839&amp;auto_play=false&amp;player_type=artwork&amp;color=ff7700&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true" allowscriptaccess="always" height="450" width="100%"></object></p>
+<param name="src" value="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/51411475&amp;auto_play=true&amp;player_type=artwork&amp;show_artwork=true&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true">
+<embed type="application/x-shockwave-flash" src="http://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/playlists/51411475&amp;auto_play=true&amp;player_type=artwork&amp;show_artwork=true&amp;sharing=false&amp;show_playcount=false&buying=false&download=false&show_bpm=true" allowscriptaccess="always" height="450" width="300"></object>-->
+				
+				
+				
+			<!--<iframe width="100%" height="250" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51411475&auto_ play=true&hide_related=false&visual=true"></iframe>-->
+			
+			<!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F63420632&c olor=c51c64&auto_play=false&show_artwork=true"></iframe>-->
+
+			<iframe width="100%" height="240" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51411475&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+				
+				
 			</div>	
 			</div><!-- col-md-4 Ends-->
 			
@@ -521,17 +543,17 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-ie-3 col-sm-12 radio1icon_footer">
-						<img class="radio1-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
-						<img class="hum-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+						<a href="https://www.facebook.com/Radio1UAE" target="_blank"><img class="radio1-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+						<a href="http://www.humfm.com/hum/" target="_blank"><img class="hum-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
 					</div>
 					
 					<div class="col-md-3 col-ie-3 col-sm-12 joshicon_footer">
-						<img class="josh-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
-					<img class="smooth-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+						<a href="http://joshfm.ae/" target="_blank"><img class="josh-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+					<a href="https://www.facebook.com/SmoothRadioMiddleEast" target="_blank"><img class="smooth-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
 					</div>	
 					<div class="col-md-3 col-ie-3 col-sm-12 hayathicon_footer">
-						<img class="hayath-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
-						<img class="radio2rock-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+						<a href="http://www.hayatfm.ae/" target="_blank"><img class="hayath-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
+						<a href="https://www.facebook.com/Radio2RockUAE" target="_blank"><img class="radio2rock-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"></a>
 					</div>	
 					</div>
 					
@@ -573,41 +595,51 @@
 					<div class="col-ie-3 col-sm-12 col-md-3 col-lg-3 subfooter_subthree">
 					<div class="footer_subscription_text">Get Social</div>
 						<div class="col-ie-3 col-md-3">
+							<a href="https://www.facebook.com/Radio2UAE" target="_blank">
 							<img class="facebook-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+							</a>
 						</div>
 						<div class="col-ie-3 col-md-3">
+							<a href="http://www.youtube.com/user/Radio1UAE" target="_blank">
 							<img class="youtube-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+							</a>
 						</div>
 						<div class="col-ie-3 col-md-3">
+							<a href="https://twitter.com/Radio1UAE" target="_blank">
 							<img class="twitter-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+							</a>	
 						</div>
 						<div class="col-ie-3 col-md-3">
+							<a href="https://soundcloud.com/Radio1UAE" target="_blank">
 							<img class="sound-cloud-footer-logo" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif">
+							</a>
 						</div>
 						
 						<?php print render($page['footer_top_third']);?>
+						<div class="footer_third"><!--- footer third starts -->
 						<div class="col-md-4 col-ie-4">	
-						<div class="footer_link_calln_sms">
+						<div class="footer_link_calln_sms no_padding">
 							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">
 						</div>
 						</div>
 						<div class="col-md-8 col-ie-8 call_here no_padding">	
-						Send "Win"
+						<a href="sms:5170">Send "Win"</a>
 						</div>
-						<div class="call_here_bottom">
-						5180
+						<div class="call_here_bottom no_padding">
+						<a href="sms:5170">5180</a>
 						</div>
 						<div class="col-md-12 col-ie-12 call_here">
-							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png">Call Us !
+							<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/footer_link_call.png"><a href="tel: 800723461">Call Us !</a>
 						</div>
-					</div>
+						
+					</div></div><!-- footer third ends -->
 					
          </div>
          </div>
 		<!-- Footer Starts --> 
 		<div class="main_footer">
-			<div class="container radio2-container_footer ">
-				<div class="col-ie-12 col-sm-12 col-md-12 col-lg-12" style="color:white;">Copyright GN Broadcasting</div>
+			<div class="container radio2-container_footer">
+				<div class="col-ie-12 col-sm-12 col-md-12 col-lg-12 footer_text" style="color:white;">GN Broadcasting 2014 All rights reserved</div>
 			</div>
 		</div>  
 		<!-- Footer Ends --> 
@@ -619,7 +651,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="sites/all/themes/bootstrap/bootstrap_subtheme/js/vendor/bootstrap.min.js"></script>
-
+ 
         <script src="sites/all/themes/bootstrap/bootstrap_subtheme/js/main.js"></script>
 		<!-- Slideshow Scripts Starts-->
 		<script type="text/javascript" src="sites/all/themes/bootstrap/bootstrap_subtheme/js/slideshow/jssor.core.js"></script>
