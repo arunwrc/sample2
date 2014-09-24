@@ -1,6 +1,9 @@
 .win_banner_holder img{
   width: 100%;
 }
+.win_hyperlink{
+	margin-top:15px;
+}
 .win_hyperlink a{
 	text-decoration:none;
 	color:#999;

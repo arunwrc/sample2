@@ -448,16 +448,16 @@ margin-left: 0 !important;
 }
 /* Simple Newsletter Styles */
 .simplenews-subscribe .form-submit {
-background: none repeat scroll 0% 0% #2A44A5;
+background: none repeat scroll 0% 0% #0b5aa5;
 color: #FFF;
 font-weight: normal;
 border: 0 solid #88c1f6;
-height: 32px;
+height: 28px;
 border-radius: 0;
 position: relative;
-top: -48px;
-left: 90.3%;
-width: 39px;
+top: -46px;
+left: 90.5%;
+width: 35px;
 }
 .simplenews-subscribe .form-submit:hover {
 
@@ -498,8 +498,13 @@ display: none;
 	margin-top:15px;
 	margin-bottom:10px;
 }
+.simplenews-subscribe .form-submit:hover {
+	background-color:#598CBB;
+	color:#FFF;
+}
 .simplenews-subscribe {
   height: 35px;
+  width:98%;
 }
 .form-control:focus {
     border-color: none !important;
@@ -696,6 +701,7 @@ margin-top: 10px;
 .winpage_tab_header{
 	margin-top:15px;
 }
+
 .win_banner_holder img{
 	width:100%;
 	height:auto;
@@ -716,7 +722,30 @@ margin-top: 10px;
 .field-competitions-image{
 	margin-top:30px;
 }
+/* */
+.field-events-image img {
+	width:100%;
+	height:auto;
+}
 
+.field-events-title{
+	margin-top:15px;
+	font-size:14px;
+	font-weight:bold;
+	color:#999;
+	
+}
+.field-events-date{
+	margin-top:5px;
+	font-size:12px;
+	color:#999;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.field-events-image{
+	margin-top:30px;
+}
+/* */
 img.ios_app {
 	width: 30px;
 	height: 32px;
@@ -928,5 +957,113 @@ margin-top:15px;
 .region-add-winners{
 	width:90%;  
 	margin-left: 25px;
+	margin-top: 20px;
 }
 
+.presenters_image{
+	margin-top:15px;
+	display:none;
+}
+
+.tb1{
+
+	background-color: #e472ad !important;
+	width: 50%;
+
+}
+.tb2{
+
+	background-color: #ebe93f !important;
+	width: 50%;
+}
+.tb1 a{
+width: 0 !important;
+}
+.tb2 a{
+width: 0 !important;
+}
+
+
+UL.horizontal {
+
+display: flex;
+list-style-type: none;
+}
+UL.horizontal > LI{
+	height: 80px;
+}
+.tabs LI{
+	border-bottom: 0;
+}
+.tabs LI:hover{
+	border-bottom: 0;
+}
+.tabs LI:active{
+	border-bottom: 2px solid green;
+}
+.tabs ul A {
+display: block;
+font-size: 17px;
+/* padding: 14px 24px; */
+text-decoration: none;
+/*width: 320px;*/
+height: 60px;
+text-decoration: none;
+line-height: 5;
+color: #000;
+position: relative;
+left: 10px;
+font-weight: bold;
+}
+hover A{
+	text-decoration: none;
+	color: #000 !important;
+}
+.active A{
+	text-decoration: none;
+	color: #000 !important;
+}
+.content_left{
+	min-height: 900px;
+
+}
+.active {
+	border-bottom: 3px solid #292929 !important;
+}
+.album_wrapper {
+float: left;
+margin-right: 14px;
+margin-top: 25px;
+margin-left: 14px;
+}
+.my_music{
+	
+}
+.ui360{
+
+	position: relative !important;
+bottom: -37% !important;
+right: -37% !important;
+}
+
+img.exclusive_music_status{
+width: 96px;
+height: 125px;
+background: url(../img/content/large/Sprite.png) -257px -290px;
+position: absolute;
+}
+img.regular_music_status{
+width: 72px;
+height: 94px;
+background: url(../img/content/large/Sprite.png) -353px -268px;
+position: absolute;
+}
+.regular_music_counter{
+position: relative;
+z-index: 11;
+top: 35px;
+font-size: 22px;
+left: 15px;
+color: #fff;
+font-weight: bold;
+}

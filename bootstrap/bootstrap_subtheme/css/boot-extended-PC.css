@@ -85,6 +85,24 @@ width:540px !important;
 		width:100% ;
 		height:auto;
 	}
+.presenters_images img {
+width:100%;
+height:auto;
+margin-top: 15px;
+}
+.music_container{
+text-align: left;
+}	
+.field-winners-competition-name {
+	font-size: 13px;
+}
+.field-winner-name{
+	font-size: 13px;
+}
+.content_left{
+	min-height: 900px !important;
+
+}
 	
 }
 

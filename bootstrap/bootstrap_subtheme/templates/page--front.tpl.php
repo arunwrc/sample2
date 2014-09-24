@@ -16,15 +16,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img class="home" src="sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"> </a>
+          <a class="navbar-brand" href="/index.php"><img class="home" src="/sites/all/themes/bootstrap/bootstrap_subtheme/img/content/large/img_trans.gif"> </a>
         </div>
         <div class="navbar-collapse collapse">
 		 <ul class="nav navbar-nav">
-			<li class="active"><a href="#">SHOWS</a></li>
-			<li><a href="#">MUSIC</a></li>
-			<li><a href="#">EVENTS</a></li>
-			<li><a href="#">WIN</a></li>
-			<li><a href="#">CONTACT</a></li>
+			<li class="active"><a href="shows">SHOWS</a></li>
+			<li><a href="music">MUSIC</a></li>
+			<li><a href="events">EVENTS</a></li>
+			<li><a href="win">WIN</a></li>
+			<li><a href="contact">CONTACT</a></li>
 			<li><a href="#">RADIO2 TV</a></li>
 		  </ul>
         </div><!--/.navbar-collapse -->
@@ -37,7 +37,9 @@
 		<div class="row"><!-- Main row Starts-->
 			<div class="col-ie-3 col-xs-3 col-sm-12 col-md-3 col-lg-3"><!-- col-md-3 Starts-->
 				<div class="logo1"> <!-- Logo Holder -->
-					<img src="sites/all/themes/bootstrap/bootstrap_subtheme/img/generic/large/logo/logo.png" width="100%">
+					<a href="/index.php">
+					<img src="/sites/all/themes/bootstrap/bootstrap_subtheme/img/generic/large/logo/logo.png" width="100%">
+					</a>
 				</div>	
 			</div><!-- col-md-3 Ends-->
 			<div class="col-ie-7 col-xs-7 col-sm-12 col-md-7 col-lg-7 no_padding"><!-- col-md-7 Starts-->
@@ -505,7 +507,7 @@
 			
 			<!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F63420632&c olor=c51c64&auto_play=false&show_artwork=true"></iframe>-->
 
-			<iframe width="100%" height="240" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51411475&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			<iframe width="100%" height="340" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51411475&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 				
 				
@@ -564,11 +566,11 @@
 					<div class="col-ie-4 col-sm-12 col-md-4 col-lg-4 subfooter_subone ">
 					<div class="footer_subscription_text">Other links</div>
 						<div class="footer_link">
-							<a href="#">Home</a>
-							<a href="#">Shows</a>
-							<a href="#">Music</a>
-							<a href="#">News</a>
-							<a href="#">Win</a>
+							<a href="/index.php">Home</a>
+							<a href="/shows">Shows</a>
+							<a href="/music">Music</a>
+							<a href="/music">News</a>
+							<a href="/win">Win</a>
 						</div>
 					<div class="footer_subscription_text useful_links">Useful links</div>
 						<?php print render($page['footer_top_second']);?>

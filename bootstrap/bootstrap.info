@@ -54,6 +54,9 @@ regions[footer_bottom_third]  = 'Footer Bottom Third'
 
 regions[add_competitions]  = 'Add Competitions'
 regions[add_winners]  = 'Add Winners'
+regions[events]  = 'Add Events'
+regions[shows]  = 'Add Shows'
+regions[music_page]  = 'Add Music'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings

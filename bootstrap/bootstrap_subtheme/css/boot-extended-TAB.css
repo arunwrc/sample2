@@ -239,6 +239,22 @@
 	.map2{
 		display:none;
 	}
+.presenters_images img {
+width:100%;
+height:auto;
+margin-top: 15px;
+}
+.field-winners-competition-name {
+	font-size: 8px;
+}
+.field-winner-name{
+	font-size: 8px;
+}
+.content_left{
+	min-height: 0 !important;
+
+}	
+
 	
 /*  */
 
